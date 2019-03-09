@@ -3,40 +3,49 @@ import pandas as pd
 from flask import Flask, render_template, redirect, make_response,request, jsonify
 import os
 import json
-from flask_pymongo import PyMongo
-import scrape_four
 
+from sqlalchemy.pool import StaticPool
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
+import pickle
 ######################
 # Database Setup
-
-#engine = create_engine("sqlite:///static/Resources/ncaa_Rank_Seed2018.sqlite")
+# Web sites use threads, but sqlite is not thread-safe.
+# These parameters will let us get around it.
+# However, it is recommended you create a new Engine, Base, and Session
+#   for each thread (each route call gets its own thread)
+engine = create_engine("sqlite:///static/Resources/fuel_economy.sqlite",
+    connect_args={'check_same_thread':False},
+    poolclass=StaticPool)
+#################################################
+conn = engine.connect()
 
 # Relect the existing database into a new model.
 
-#Base = automap_base()
+Base = automap_base()
 
 # Reflect the table.
 
-#Base.prepare(engine, reflect=True)
+Base.prepare(engine, reflect=True)
 
-# Save a reference to the ranks table as "Ranks".
+# Save a reference to the car table as "Car".
 
+Car = Base.classes.car
+CarValidate = Base.classes.carvalidate
+Train = Base.classes.train
+Test = Base.classes.test
 
-
-# Save a reference to the seeds table as "Seed".
 
 
 
 # Create our session link from Python to the database.
 
-#session = Session(engine)
+session = Session(engine)
 ######################
 # Create an instance of Flask
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__)
 
 
 
@@ -68,11 +77,21 @@ def about():
 
    return render_template("about.html")
 #--------------------
+@app.route("/smartway")
+def smartway():
+    filename = 'finalized_model.sav'
+    # load the model from disk
+    loaded_model = pickle.load(open(filename, 'rb'))
+    new_df = pd.read_sql_query("SELECT * FROM test",conn)
+    newX = new_df.drop(['id','smartway'], axis=1)
+    newy = new_df['smartway']
+    print(newy)
+    result = loaded_model.score(newX, newy)
+    ynew = loaded_model.predict(newX).tolist()
+    
+    return(jsonify({'prediction': ynew}))
 
-#error handler
-@app.errorhandler(404)
-def not_found(error):
-   return make_response(jsonify({'error': 'Not found'}), 404)
+
 
 ###################### End #########################
 if __name__ == "__main__":
