@@ -1,0 +1,6 @@
+Index,Resale-Cat,fuel_type,vehicle_class,displ,cyl,trans,drive,smog_rating,city_mpg,hwy_mpg,cmb_mpg,Greenhouse_gas_score,smartway,comb_CO2,Sales_2016,Sales_2017,Sales_2018
+5,Low,Gasoline,large car,4.4,8,SemiAuto-8,4WD,6,16,25,19,4,No,459,12071,8731,7909
+61,Low,Gasoline,small car,1.4,4,Man-5,2WD,6,28,34,30,7,Yes,295,14380,11467,4916
+462,High,Gasoline,small SUV,2,4,Auto-8,4WD,5,23,25,24,5,No,375,180991,179188,228293
+480,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,125,100,112,10,Elite,0,13251,10458,14565
+332,Low,Gasoline/Electricity,large car,2,4,SemiAuto-8,4WD,3,43.5,48.5,45.5,9,Yes,214,12071,8731,7909

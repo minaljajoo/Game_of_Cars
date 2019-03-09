@@ -59,15 +59,15 @@ def home():
 
 # Route to render magic.html: Display the techinical report
 @app.route("/magic")
-def data():
+def magic():
 
    return render_template("magic.html")
 #--------------------
 # Route to render featured.html: display all the plots
-@app.route("/featured")
-def bracket():
+@app.route("/prediction")
+def prediction():
 
-   return render_template("featured.html")
+   return render_template("prediction.html")
 
 #--------------------
 
@@ -79,19 +79,32 @@ def about():
 #--------------------
 @app.route("/smartway")
 def smartway():
-    filename = 'finalized_model.sav'
+    filename_smartway = 'Model/finalized_smartway_model_KN.sav'
     # load the model from disk
-    loaded_model = pickle.load(open(filename, 'rb'))
-    new_df = pd.read_sql_query("SELECT * FROM test",conn)
-    newX = new_df.drop(['id','smartway'], axis=1)
-    newy = new_df['smartway']
-    print(newy)
-    result = loaded_model.score(newX, newy)
-    ynew = loaded_model.predict(newX).tolist()
+    loaded_model_smartway  = pickle.load(open(filename_smartway , 'rb'))
+    smartway_new_df = pd.read_sql_query("SELECT * FROM test",conn)
+    newX_smartway  =  smartway_new_df.drop(['id','smartway'], axis=1)
+    newy_smartway  =  smartway_new_df['smartway']
+    print(newy_smartway )
+    result_smartway  = loaded_model_smartway.score(newX_smartway, newy_smartway)
+    ynew_smartway  = loaded_model_smartway.predict(newX_smartway).tolist()
     
-    return(jsonify({'prediction': ynew}))
+    return(jsonify({'prediction': ynew_smartway }))
 
-
+#--------------------
+@app.route("/mpg")
+def mpg():
+    filename_mpg = 'Model/finalized_mpg_model_KN.sav'
+    # load the model from disk
+    loaded_model_mpg = pickle.load(open(filename_mpg, 'rb'))
+    new_mpg_df = pd.read_sql_query("SELECT * FROM test",conn)
+    newX_mpg = new_mpg_df.drop(['id','cmb_mpg'], axis=1)
+    newy_mpg = new_mpg_df['cmb_mpg']
+    print(newy_mpg)
+    result_mpg = loaded_model_mpg.score(newX_mpg, newy_mpg)
+    ynew_mpg = loaded_model_mpg.predict(newX_mpg).tolist()
+    
+    return(jsonify({'prediction': ynew_mpg}))
 
 ###################### End #########################
 if __name__ == "__main__":
