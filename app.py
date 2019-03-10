@@ -93,6 +93,25 @@ def smartway():
 @app.route("/mpg")
 def mpg():
     return render_template("mpg.html")
+#--------------------
+@app.route("/loan_amir")
+def loan_amir():
+   return render_template("loan_amir.html")
+
+#--------------------
+@app.route("/loan_sarah")
+def loan_sarah():
+   return render_template("loan_sarah.html")
+#--------------------
+@app.route("/loan_nadia")
+def loan_nadia():
+   return render_template("loan_nadia.html")
+
+#--------------------
+@app.route("/loan_dan")
+def loan_dan():
+   return render_template("loan_dan.html")
+
 
 #--------------------
 def smartway_model():

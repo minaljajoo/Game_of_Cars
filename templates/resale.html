@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="../static/css/carousel.css">
 
+
 </head>
 <!--########################### Body for html #################################-->
 
@@ -53,10 +54,10 @@
           
           </a>
           <ul class ="dropdown-menu" aria-labelledby="dropdown_target">
-            <li><a class ="dropdown-item" href="/loan"><i class="fas fa-hand-holding-usd"></i> Loan Card</a></li>
-            <li><a class ="dropdown-item" href="/mpg"><i class="fas fa-gas-pump"></i> Mpg Card </a></li>
-            <li><a class ="dropdown-item" href="/resale"><i class="fas fa-money-check-alt"></i> Resale card</a></li>
-           <li><a class ="dropdown-item" href="/smartway"><i class="far fa-grin-stars"></i> Smartway Card</a></li>
+            <li><a class ="dropdown-item" href="/loan"><i class="fas fa-hand-holding-usd"></i> Loan Model</a></li>
+            <li><a class ="dropdown-item" href="/mpg"><i class="fas fa-gas-pump"></i> Mpg Model </a></li>
+            <li><a class ="dropdown-item" href="/resale"><i class="fas fa-money-check-alt"></i> Resale Model</a></li>
+           <li><a class ="dropdown-item" href="/smartway"><i class="far fa-grin-stars"></i> Smartway Model</a></li>
         </ul>
       </li>
         <li class="nav-item">
@@ -72,126 +73,123 @@
     </div>
   </nav>
   <!-- End of the Navigation bar-->
-  <!--------------------------------------------------------->
+  <!--###################### Begin Loan Model KMeans Write up##############################################-->
   <!-- Start of Main container-->
-  <div class ="container-fluid">
-    <div class="row" style = "padding-bottom:10px;">
-      <div class ="col-md-5">
-        <div class ="panel panel-default">
-         <!-- Main panel-->
-        <div class="panel-heading panel-heading-custom">
-          <h3><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i> 
-            
-          </h3>
-          <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style = "width: 40%" alt="banner">
-        </div>
-        <br>
-        <div class="panel-body">
-          
-          <p>
-        <strong>Lets Play Game of Cars</strong> </p>
+  <div class = "container-fluid">
+    <div class = "row" style = "padding-bottom: 10px;">
+      <!--################## RIGHT SIDE OF PG#####################-->
+      <div class = "col-md-5">
+      <!-- Gamee of cards logo-->
+         <div class = "panel-heading panel-heading-custom">
+          <h3><i class="fas fa-gamepad"></i> Game of Cars <i class = "fas fa-car"></i></h3>
+        </div> <!-- End Panel heading-->
+        <!--  Start Row 2-->
+        <div class = "row">
+          <h5>Cluster Data into 'High-Resale' and 'Low-Resale' Groups</h5>
+        </div> <!-- End Row 2-->
+        <!-- Start Row 3-->
+        <div class = "row">
+          <img class="img-responsive highlight" src="/static/Images/kmeans_5.PNG" style = "width: 75%" alt="Cluster-Category">
 
- <!-- @Axander Write up ************************************-->         
-          <p></p>
-                                      
-          <p></p>
-        
+        </div> <!-- End Row 3-->
 
-        </div>
-       </div>
-     </div>
-     <div class = "col-md-4 highlight_blue">
-     <div class = "row">
-        <!---->
-        <div class="card-columns" style = "padding-left:40px;">
-            
-          <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-                <h5>Name: </h5>
-                <img class="card-img-top mx-auto d-block" src="/static/Images/man1.png" style ="width: 100%; " alt="Person 1" >
-                
-              <input type="button" class="btn btn-outline-primary mt-auto" id="button1" value="Update Person1 data" onclick="update_person1();">
-          
-          </div>
-          <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-              <h5>Name: </h5>
-              <img class="card-img-top mx-auto d-block" src="/static/Images/woman.jpg" style ="width: 100%; " alt="Person 2" >
-              
-            <input type="button" class="btn btn-outline-primary mt-auto" id="button2" value="Update Person2 data" onclick="update_person2();">
-        
-        </div>
-        <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-            <h5>Name: </h5>
-            <img class="card-img-top mx-auto d-block" src="/static/Images/woman1.jpg" style ="width: 100%; " alt="Person 3" >
-            
-          <input type="button" class="btn btn-outline-primary mt-auto" id="button3" value="Update Person3 data" onclick="update_person3();">
-      
-      </div>
-      <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-          <h5>Name: </h5>
-          <img class="card-img-top mx-auto d-block" src="/static/Images/man2.png" style ="width: 100%; " alt="Person 4" >
-          
-        <input type="button" class="btn btn-outline-primary mt-auto" id="button4" value="Update Person4 data" onclick="update_person4();">
+        <!-- Start Row 4-->
+        <div class = "row">
+          <h3><u>Model Features</u></h3>
+        </div> <!-- End Row 4-->
+        <!-- Start Row 5-->
+        <div class = "row">
+          <h5> <font color = "aliceblue">
+          <!-- Start Ordered List-->
+          <ol>
+            <li>Car Model</li>
+            <li>Fuel Type</li>
+            <li>Vehicle Class</li>
+            <li>Displ</li>
+            <li>Cylinders</li>
+            <li>Transmission</li>
+            <li>Drive</li>
+            <li>Smog Rating</li>
+            <li>City MPG</li>
+            <li>Highway MPG</li>
+            <li>Comnined MPG</li>
+            <li>Greenhouse Gas Score</li>
+            <li>Smartway Classification</li>
+            <li>CO<sub>2</sub> Emission</li>
+            <li> 2016 Sales</li>
+            <li> 2017 Sales</li>
+            <li> 2018 Sales</li>
+
+
+
+          </ol> <!-- End Ordered List-->
+          </h5></font>
+        </div> <!-- End Row 5-->
+
     
-    </div>
-            
-
-          
-        </div>
-        <!---->
-      </div>
-    </div>
-
-   <!-- right side-->
-  
-   <div class ="col-md-2">
-      <div class = "row" style = "padding-left:30px;">
-
-          <a>
-            <img class="img-responsive" src="/static/Images/car_buyer.png"  style = "width: 100%; padding-left:10px;" alt= ""></a>
-
-      </div>
-      <div class = "row">
-        <div class="card-columns">
-            <a href="/loan">
-          <div class="card bg-danger text-center" style="width:10em;  ">
-            <div class ="zoom">
-            <img class="card-img-top mx-auto d-block" src="/static/Images/red-car-in-shopping-cart.png" style ="width: 100%; " alt="Loan Card" ></div>
-           <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Card</div>
-          </div>
-        </a>
-        <a href="/mpg">
-            <div class="card bg-danger text-center" style="width:10em; ">
-              <div class ="zoom">
-              <img class="card-img-top mx-auto d-block" src="/static/Images/mpg.jpg" style ="width: 100%; " alt="Mpg Card" ></div>
-             <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Card</div>
+        
+      </div> <!-- End col-md-5-->
+      <!--################## END RIGHT SIDE OF PG ###################-->
+      <!--################# SEPERATION COLUMN ###################-->
+      <div class = "col-md-1"></div>
+      <!--################### END SEPERATION COLUMN #########-->
+     
+      <!--################# LEFT SIDE OF PG #########################-->
+      <div class = "col-md-6">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h2>
+              <u>KMeans Machine Learning Model </u>
+            </h2>
             </div>
-          </a>
-          <a href="/east">
-              <div class="card bg-danger text-center" style="width:10em; ">
-                <div class ="zoom">
-                <img class="card-img-top mx-auto d-block" src="/static/Images/Resale.jpg" style ="width: 100%; " alt="Resalr Card" ></div>
-               <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Card</div>
-              </div>
-            </a>
-            <a href="/midwest">
-                <div class="card bg-danger text-center" style="width:10em; ">
-                  <div class ="zoom">
-                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%; " alt="Smartway Card" ></div>
-                 <div class="btn btn-primary mt-auto"><i class="far fa-grin-stars"></i> Smartway Card</div>
-                </div>
-              </a>
-  
-          
-        </div>
-      </div>
-    </div>
-    <br> 
-    </div>
-  </div>
+          </div>
+        <!-- Row 2-->
+        <div class = "row">
+          <div class = "col-md-6">
+            <img class="img-responsive highlight" src="/static/Images/KMAnimated.gif" style = "width: 80%" alt="Cluster-gif-1">      
+          </div>
+          <div class = "col-md-6">
+            <img class="img-responsive highlight" src="/static/Images/KMAnimated_2.gif" style = "width: 80%" alt="Cluster-gif-2">      
+          </div>
+
+        </div> <!-- End Row 2-->
+
+        <!--################# START RIGHT SIDE CONTENT #################################-->
+        <div class = "row"> <!-- 1st row of content-->
+          <div class = "col-md-12 highlight">
+            <div class = "row">
+            <h2><u>KMeans Background Information:</u></h2>
+            </div>
+            <div class = "row"> <!-- 2ND ROW OF CONTENT-->
+              <div class = "col-md-12">
+                <h5>
+                    <font color = "#1E90FF">
+                    <p> <strong> The objective of K-means is simple: group similar data points together and discover underlying patterns.</p></strong>
+                    <p> <strong> To achieve this objective, K-means looks for a fixed number (k) of clusters in a dataset.</p> </strong>
+                    <p><strong>KMeans is in the family of Unsupervised Learning where we have no variable to predict tied to the data. Instead of having an output, the data only has an input which would be multiple variables that describe the data.</strong></p>
+                    </font>                  
+                </h5>
+              </div> <!-- END COL-MD-12 -->
+            </div> <!-- END 2ND ROW OF CONTENT-->
+            <div class = "row"> <!-- 3RD ROW OF CONTENT-->
+              <h2><u>Resale Category Model</u></h2>
+
+            </div> <!-- END 3RD ROW OF CONTENT-->
+
+          </div> <!-- End High light box-->
+        </div> <!-- End 1st row of content-->
+        
+
+         <!--################# END RIGHT SIDE CONTENT #################################-->
+
+      </div> <!-- End col-md-5-->
+
+      <!-- ############### END LEFT SIDE OF PG #######################-->
+    </div> <!-- End Row 1 padding-->
+
+  </div> <!-- End of Main container-->
+   <!--###################### End Loan Model KMeans Write up##############################################-->
+ 
   <!-- Footer -->
 <footer>
   <!-- Copyright -->
@@ -204,7 +202,10 @@
   <!-- Plotly and d3 and javascript files -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="../static/js/person_selection.js"></script>
 
+
+  
  
   <!-- End of the scripts -->
 </body>
