@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, make_response,request, jsoni
 import os
 import json
 from flask_pymongo import PyMongo
-import scrape_four
+#import scrape_four
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
@@ -56,7 +56,7 @@ def data():
 #--------------------
 # Route to render featured.html: display all the plots
 @app.route("/featured")
-def bracket():
+def featured():
 
    return render_template("featured.html")
 
@@ -68,6 +68,48 @@ def about():
 
    return render_template("about.html")
 #--------------------
+
+
+#--------------------
+@app.route("/loan")
+def loan():
+   return render_template("loan.html")
+
+#--------------------
+@app.route("/mpg")
+def mpg():
+   return render_template("mpg.html")
+
+#--------------------
+@app.route("/resale")
+def resale():
+   return render_template("resale.html")
+
+#--------------------
+@app.route("/smartway")
+def smartway():
+   return render_template("smartway.html")
+
+#--------------------
+@app.route("/loan_amir")
+def loan_amir():
+   return render_template("loan_amir.html")
+
+#--------------------
+@app.route("/loan_sarah")
+def loan_sarah():
+   return render_template("loan_sarah.html")
+#--------------------
+@app.route("/loan_nadia")
+def loan_nadia():
+   return render_template("loan_nadia.html")
+
+#--------------------
+@app.route("/loan_dan")
+def loan_dan():
+   return render_template("loan_dan.html")
+
+
 
 #error handler
 @app.errorhandler(404)

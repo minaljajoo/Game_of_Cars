@@ -169,7 +169,7 @@ input[type=submit] {
 
 ul {
   padding-left: 0;
-  list-style-type: none;
+ 
 }
 
 /* The footer is positioned at the bottom of the page */
@@ -213,11 +213,18 @@ footer {
   border-width: 3px;
 
 }
+
 .highlight_blue {
   border-color: #3385ff;
   border-style: solid;
   border-width: 3px;
 
+}
+
+.highlight_red {
+  border-color: #ee3211;
+  border-style: solid;
+  border-width: 3px;
 }
 
 /************** End of  style.css file ****************/

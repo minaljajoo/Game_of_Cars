@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="../static/css/carousel.css">
 
+
 </head>
 <!--########################### Body for html #################################-->
 
@@ -92,7 +93,7 @@
         <strong>Lets Play Game of Cars</strong> </p>
 
  <!-- @Axander Write up ************************************-->         
-          <p></p>
+          <p><H1> Welcome to About PG</H1></p>
                                       
           <p></p>
         
@@ -107,34 +108,35 @@
             
           <div class=" card bg-light border-primary text-center" style="width:12em;  ">
             
-                <h5>Name: </h5>
-                <img class="card-img-top mx-auto d-block" src="/static/Images/man1.png" style ="width: 100%; " alt="Person 1" >
+                <h5>Amir</h5>
+                <img class="card-img-top mx-auto d-block" src="/static/Images/black-doctor.jpg" style ="width: 100%; " alt="Person 1" >
                 
-              <input type="button" class="btn btn-outline-primary mt-auto" id="button1" value="Update Person1 data" onclick="update_person1();">
+              <input type="button" class="btn btn-outline-primary mt-auto" id="button1" value="Select Amir" onclick="update_amir()">
+
           
           </div>
           <div class=" card bg-light border-primary text-center" style="width:12em;  ">
             
-              <h5>Name: </h5>
+              <h5>Nadia </h5>
               <img class="card-img-top mx-auto d-block" src="/static/Images/woman.jpg" style ="width: 100%; " alt="Person 2" >
               
-            <input type="button" class="btn btn-outline-primary mt-auto" id="button2" value="Update Person2 data" onclick="update_person2();">
+            <input type="button" class="btn btn-outline-primary mt-auto" id="button2" value="Select Nadia" onclick="update_nadia()">
         
         </div>
         <div class=" card bg-light border-primary text-center" style="width:12em;  ">
             
-            <h5>Name: </h5>
+            <h5>Sarah</h5>
             <img class="card-img-top mx-auto d-block" src="/static/Images/woman1.jpg" style ="width: 100%; " alt="Person 3" >
             
-          <input type="button" class="btn btn-outline-primary mt-auto" id="button3" value="Update Person3 data" onclick="update_person3();">
+          <input type="button" class="btn btn-outline-primary mt-auto" id="button3" value="Select Sarah" onclick="update_sarah()">
       
       </div>
       <div class=" card bg-light border-primary text-center" style="width:12em;  ">
             
-          <h5>Name: </h5>
+          <h5>Dan </h5>
           <img class="card-img-top mx-auto d-block" src="/static/Images/man2.png" style ="width: 100%; " alt="Person 4" >
           
-        <input type="button" class="btn btn-outline-primary mt-auto" id="button4" value="Update Person4 data" onclick="update_person4();">
+        <input type="button" class="btn btn-outline-primary mt-auto" id="button4" value="Select Dan" onclick="update_dan()">
     
     </div>
             
@@ -170,14 +172,14 @@
              <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Card</div>
             </div>
           </a>
-          <a href="/east">
+          <a href="/resale">
               <div class="card bg-danger text-center" style="width:10em; ">
                 <div class ="zoom">
                 <img class="card-img-top mx-auto d-block" src="/static/Images/Resale.jpg" style ="width: 100%; " alt="Resalr Card" ></div>
                <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Card</div>
               </div>
             </a>
-            <a href="/midwest">
+            <a href="/smartway">
                 <div class="card bg-danger text-center" style="width:10em; ">
                   <div class ="zoom">
                   <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%; " alt="Smartway Card" ></div>
@@ -204,7 +206,10 @@
   <!-- Plotly and d3 and javascript files -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="../static/js/person_selection.js"></script>
 
+
+  
  
   <!-- End of the scripts -->
 </body>
