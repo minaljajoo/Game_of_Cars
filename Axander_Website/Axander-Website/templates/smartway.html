@@ -8,7 +8,8 @@
 <head>
   <!-- All meta tags should be first in the header-->
   <meta charset="UTF-8">
-  <title>Project 4: Game of Cars -dashboard </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project: Game of Cars -dashboard </title>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -28,7 +29,6 @@
   <!-- css Style Scripts -->
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="../static/css/carousel.css">
-
 
 </head>
 <!--########################### Body for html #################################-->
@@ -76,123 +76,94 @@
   <!--------------------------------------------------------->
   <!-- Start of Main container-->
   <div class ="container-fluid">
-    <div class="row" style = "padding-bottom:10px;">
-      <div class ="col-md-5">
-        <div class ="panel panel-default">
+    <div class="row .margin-top-30 " style = "padding-bottom:20px; ">
+      <div class ="col-md-8">
+
          <!-- Main panel-->
-        <div class="panel-heading panel-heading-custom">
-          <h3><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i> 
-            
-          </h3>
-          <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style = "width: 40%" alt="banner">
-        </div>
-        <br>
-        <div class="panel-body">
-          
-          <p>
-        <strong>Lets Play Game of Cars</strong> </p>
 
- <!-- @Axander Write up ************************************-->         
-          <p><H1> Welcome to Smartway PG</H1></p>
-                                      
-          <p></p>
-        
+          <h1> <i class="far fa-grin-stars"></i>
+            SMARTWAY: BEHIND THE SCENES
+          </h1>
 
-        </div>
-       </div>
-     </div>
-     <div class = "col-md-4 highlight_blue">
-     <div class = "row">
-        <!---->
-        <div class="card-columns" style = "padding-left:40px;">
-            
-          <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-                <h5>Amir</h5>
-                <img class="card-img-top mx-auto d-block" src="/static/Images/black-doctor.jpg" style ="width: 100%; " alt="Person 1" >
-                
-              <input type="button" class="btn btn-outline-primary mt-auto" id="button1" value="Select Amir" onclick="update_amir()">
-
-          
-          </div>
-          <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-              <h5>Nadia </h5>
-              <img class="card-img-top mx-auto d-block" src="/static/Images/woman.jpg" style ="width: 100%; " alt="Person 2" >
+          <h2>
               
-            <input type="button" class="btn btn-outline-primary mt-auto" id="button2" value="Select Nadia" onclick="update_nadia()">
-        
-        </div>
-        <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-            <h5>Sarah</h5>
-            <img class="card-img-top mx-auto d-block" src="/static/Images/woman1.jpg" style ="width: 100%; " alt="Person 3" >
-            
-          <input type="button" class="btn btn-outline-primary mt-auto" id="button3" value="Select Sarah" onclick="update_sarah()">
-      
-      </div>
-      <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-          <h5>Dan </h5>
-          <img class="card-img-top mx-auto d-block" src="/static/Images/man2.png" style ="width: 100%; " alt="Person 4" >
-          
-        <input type="button" class="btn btn-outline-primary mt-auto" id="button4" value="Select Dan" onclick="update_dan()">
-    
-    </div>
-            
+        Machine Learning through Scikit-learn with the K-nearest neighbors<br> <img class="img-responsive highlight_blue " src="/static/Images/scikit.png" style = "width: 20%" alt=""></h2>
+        <br> 
+            <p>K-nearest neighbors, is an example of instance-based learning where we instead simply store the training data and use it to make new predictions.
+              In general, instance-based techniques such as k-nearest neighbors are lazy learners, as compared to model-based techniques which are eager learners. A lazy approach will only "learn" from the data (to make a prediction) when a new query is made while an eager learner will learn from the data right away and build a generalized model capable of predicting any value. Thus, lazy learners are fast to train and slower to query, while eager learners are slower to train but can make new predictions very quickly.
+            </p>
 
-          
+       
+          <p> Machine learning was implemented by the K-nearest neighbors model through Scikit-learn. K-nearest neighbors is a simple model that creates labels with training data and then predicts a label. It finds a predefined number of training samples closest in distance to the new point and uses that to predict the label. The predefined number is also known as K and needs to be odd in order to prevent ties and create an unambiguous result. K-nearest neighbors is especially useful and accurate for smaller sets of data, which fits our data set particularly well. </p>
+          <h3> Implementation of K-nearest neighbors model</h3>
+          <p>Get the orignal data and encode it so can be feed into ML                 <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_1.png" style = "width: 100%" alt=" ">
+          <br>
+          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_2.png" style = "width: 100%" alt=" ">   
+        </p>           
+          <p>The original data was divided into two groups: training and testing.
+          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_3.png" style = "width: 100%" alt=" ">
+        </p>
+            <p>
+             Training was completed with the training data and was stored in the Models folder using pickle. The model was then tested with the test data and resulted in an accuracy of 0.969. 
+                      
+            <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_4.png" style = "width: 100%" alt=" ">
+                    <br>  
+            <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_5.png" style = "width: 100%" alt=" ">
+             Once the model was tested and proven to be accurate, the customer data, also known as validation data, can be fed into the model, which was not seen before and a prediction can be obtained. At the moment, the customer data is not defined by user input, but in the future, it will be. </p>
+        
+
         </div>
-        <!---->
-      </div>
-    </div>
 
    <!-- right side-->
-  
-   <div class ="col-md-2">
-      <div class = "row" style = "padding-left:30px;">
 
-          <a>
-            <img class="img-responsive" src="/static/Images/car_buyer.png"  style = "width: 100%; padding-left:10px;" alt= ""></a>
-
-      </div>
-      <div class = "row">
-        <div class="card-columns">
+   <div class="col-md-4" id="sticky-sidebar" >
+      <div class="row">
+        <div class= "col-md-5 ">
             <a href="/loan">
-          <div class="card bg-danger text-center" style="width:10em;  ">
+          <div class="card bg-danger text-center" style="width:150px; ">
             <div class ="zoom">
             <img class="card-img-top mx-auto d-block" src="/static/Images/red-car-in-shopping-cart.png" style ="width: 100%; " alt="Loan Card" ></div>
-           <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Card</div>
+           <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Model</div>
           </div>
         </a>
+      </div>
+      <div class= "col-md-5 ">
         <a href="/mpg">
-            <div class="card bg-danger text-center" style="width:10em; ">
+            <div class="card bg-danger text-center" style="width:150px;">
               <div class ="zoom">
               <img class="card-img-top mx-auto d-block" src="/static/Images/mpg.jpg" style ="width: 100%; " alt="Mpg Card" ></div>
-             <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Card</div>
+             <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Model</div>
             </div>
           </a>
+          </div>
+</div>
+<br>
+<br>
+<div class="row">
+    <div class= "col-md-5 ">
           <a href="/resale">
-              <div class="card bg-danger text-center" style="width:10em; ">
+              <div class="card bg-danger text-center" style="width:150px; ">
                 <div class ="zoom">
                 <img class="card-img-top mx-auto d-block" src="/static/Images/Resale.jpg" style ="width: 100%; " alt="Resalr Card" ></div>
-               <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Card</div>
+               <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Model</div>
               </div>
             </a>
+          </div>
+          <div class= "col-md-5 ">
             <a href="/smartway">
-                <div class="card bg-danger text-center" style="width:10em; ">
+                <div class="card bg-danger text-left highlight " style="width:150px;">
                   <div class ="zoom">
-                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%; " alt="Smartway Card" ></div>
-                 <div class="btn btn-primary mt-auto"><i class="far fa-grin-stars"></i> Smartway Card</div>
+                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%;  opacity: 1; " alt="Smartway Card" ></div>
+                 <div class="btn btn-primary mt-auto " ><i class="far fa-grin-stars"></i> Smartway Model</div>
                 </div>
               </a>
-  
-          
+          </div>
         </div>
-      </div>
+   
     </div>
+  </div>
     <br> 
-    </div>
+
   </div>
   <!-- Footer -->
 <footer>
@@ -206,10 +177,7 @@
   <!-- Plotly and d3 and javascript files -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script type="text/javascript" src="../static/js/person_selection.js"></script>
 
-
-  
  
   <!-- End of the scripts -->
 </body>
