@@ -14,7 +14,7 @@ html{
 
 body {
 
-      background: url("/static/Images/car_background_style.jpg");
+      background: url("/static/Images/car_background_style.png");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -26,7 +26,7 @@ body {
 
   border: 20px solid yellow;
   border-image: url("../images/road.jpeg")30;
-  border-image-repeat: stretch;
+  border-image-repeat:repeat;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -57,16 +57,7 @@ body {
   background-color: #c0392b;
 }
 
-.panel-default > .panel-heading-custom {
-  color: #1E90FF;
-  font-weight: bold;
-}
-.panel-body{
-  color: aliceblue;
-  padding-left:30px;
-  padding-bottom: 20px;
-  padding-top:20px;   
-}
+
 
 h1,h3,h4,h5{
   color: #1E90FF;
@@ -78,6 +69,7 @@ h2{
 }
 p{
   color: aliceblue;
+  font: 18px;
 }
 img{
 
@@ -189,7 +181,7 @@ footer {
   border-width: 20px;
   border-top-style: solid;
   border-image: url("../images/road.jpeg")30;
-  border-image-repeat: stretch;
+  border-image-repeat: repeat;
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
@@ -205,6 +197,24 @@ footer {
   margin-bottom: 30px;
 }
 
+#sticky-sidebar{
+ 
+  position: fixed;
+  z-index: 1;
+  top: 150px;
+  right: 0;
+
+ 
+  overflow-x: hidden;
+  transition: 0.5s;
+ 
+  transition: all 300ms ease 0s;
+  }
+@media (max-width: 768px) {
+  #sticky-sidebar {
+      display: none;
+  }
+}
 /* This CSS styles: add border- to highlight */
 
 .highlight {

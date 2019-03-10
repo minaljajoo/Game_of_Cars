@@ -76,11 +76,11 @@
   <!-- Start of Main container-->
   <div class ="container-fluid">
     <div class="row" style = "padding-bottom:10px;">
-      <div class ="col-md-5">
-        <div class ="panel panel-default">
+      <div class ="col-md-8">
+
          <!-- Main panel-->
-        <div class="panel-heading panel-heading-custom">
-          <h3><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i> 
+
+          <h3><i class="fas fa-gamepad"></i> GAME OF CARS: BEHIND THE SCENES <i class="fas fa-car"></i> 
             
           </h3>
           <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style = "width: 40%" alt="banner">
@@ -89,105 +89,68 @@
         <div class="panel-body">
           
           <p>
-        <strong>Lets Play Game of Cars</strong> </p>
+        <strong>App.py: </strong> </p>
+      
+          <p>Calls restful apis to connect all HTML and JavaScript files to run the webpage by providing all the routes in the webpage. </p>
+              
+          <strong>HTML and JavaScript: </strong> </p>
+          <p>A frontend for Game of Cars, which is user friendly through the use of JavaScript and CSS styling. The JavaScript allows for animations, while the CSS allows for styling to make the webpages look better for the user. Bootstrap was the particular style used.</p>
 
- <!-- @Axander Write up ************************************-->         
-          <p></p>
-                                      
-          <p></p>
-        
-
+          <strong>Jupyter Notebook: </strong> </p>
+        <p>Jupyter Notebook was used to clean the raw data and store it into csv files. It was also used to test the models.</p>
+        <strong>SQL/SQLite: </strong> </p>
+            <p>The cleaned data was put into four tables and then stored into a database through SQLite. One table was the original data and another table was the validation data. The other two tables were those two tables converted into integers. </p>
         </div>
        </div>
      </div>
-     <div class = "col-md-4 highlight_blue">
-     <div class = "row">
-        <!---->
-        <div class="card-columns" style = "padding-left:40px;">
-            
-          <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-                <h5>Name: </h5>
-                <img class="card-img-top mx-auto d-block" src="/static/Images/man1.png" style ="width: 100%; " alt="Person 1" >
-                
-              <input type="button" class="btn btn-outline-primary mt-auto" id="button1" value="Update Person1 data" onclick="update_person1();">
-          
-          </div>
-          <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-              <h5>Name: </h5>
-              <img class="card-img-top mx-auto d-block" src="/static/Images/woman.jpg" style ="width: 100%; " alt="Person 2" >
-              
-            <input type="button" class="btn btn-outline-primary mt-auto" id="button2" value="Update Person2 data" onclick="update_person2();">
-        
-        </div>
-        <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-            <h5>Name: </h5>
-            <img class="card-img-top mx-auto d-block" src="/static/Images/woman1.jpg" style ="width: 100%; " alt="Person 3" >
-            
-          <input type="button" class="btn btn-outline-primary mt-auto" id="button3" value="Update Person3 data" onclick="update_person3();">
-      
-      </div>
-      <div class=" card bg-light border-primary text-center" style="width:12em;  ">
-            
-          <h5>Name: </h5>
-          <img class="card-img-top mx-auto d-block" src="/static/Images/man2.png" style ="width: 100%; " alt="Person 4" >
-          
-        <input type="button" class="btn btn-outline-primary mt-auto" id="button4" value="Update Person4 data" onclick="update_person4();">
-    
-    </div>
-            
-
-          
-        </div>
-        <!---->
-      </div>
-    </div>
+ 
 
    <!-- right side-->
   
-   <div class ="col-md-2">
-      <div class = "row" style = "padding-left:30px;">
-
-          <a>
-            <img class="img-responsive" src="/static/Images/car_buyer.png"  style = "width: 100%; padding-left:10px;" alt= ""></a>
-
-      </div>
-      <div class = "row">
-        <div class="card-columns">
+   <div class="col-md-4" id="sticky-sidebar" >
+      <div class="row">
+        <div class= "col-md-5 ">
             <a href="/loan">
-          <div class="card bg-danger text-center" style="width:10em;  ">
+          <div class="card bg-danger text-center" style="width:150px; ">
             <div class ="zoom">
             <img class="card-img-top mx-auto d-block" src="/static/Images/red-car-in-shopping-cart.png" style ="width: 100%; " alt="Loan Card" ></div>
-           <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Card</div>
+           <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Model</div>
           </div>
         </a>
+      </div>
+      <div class= "col-md-5 ">
         <a href="/mpg">
-            <div class="card bg-danger text-center" style="width:10em; ">
+            <div class="card bg-danger text-center" style="width:150px;">
               <div class ="zoom">
               <img class="card-img-top mx-auto d-block" src="/static/Images/mpg.jpg" style ="width: 100%; " alt="Mpg Card" ></div>
-             <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Card</div>
+             <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Model</div>
             </div>
           </a>
-          <a href="/east">
-              <div class="card bg-danger text-center" style="width:10em; ">
+          </div>
+</div>
+<br>
+<br>
+<div class="row">
+    <div class= "col-md-5 ">
+          <a href="/resale">
+              <div class="card bg-danger text-center" style="width:150px; ">
                 <div class ="zoom">
                 <img class="card-img-top mx-auto d-block" src="/static/Images/Resale.jpg" style ="width: 100%; " alt="Resalr Card" ></div>
-               <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Card</div>
+               <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Model</div>
               </div>
             </a>
-            <a href="/midwest">
-                <div class="card bg-danger text-center" style="width:10em; ">
+          </div>
+          <div class= "col-md-5 ">
+            <a href="/smartway">
+                <div class="card bg-danger text-left  " style="width:150px;">
                   <div class ="zoom">
-                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%; " alt="Smartway Card" ></div>
-                 <div class="btn btn-primary mt-auto"><i class="far fa-grin-stars"></i> Smartway Card</div>
+                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%;" alt="Smartway Card" ></div>
+                 <div class="btn btn-primary mt-auto " ><i class="far fa-grin-stars"></i> Smartway Model</div>
                 </div>
               </a>
-  
-          
+          </div>
         </div>
-      </div>
+   
     </div>
     <br> 
     </div>

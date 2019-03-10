@@ -10,6 +10,9 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 import pickle
+
+import numpy as np
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 ######################
 # Database Setup
 # Web sites use threads, but sqlite is not thread-safe.
@@ -61,13 +64,18 @@ def home():
 @app.route("/magic")
 def magic():
 
-   return render_template("magic.html")
+
+    return render_template("magic.html")
 #--------------------
 # Route to render featured.html: display all the plots
 @app.route("/prediction")
 def prediction():
 
-   return render_template("prediction.html")
+    prediction_smartway = smartway_model()
+    prediction_mpg = pd.read_csv('Model/pred_mpg_tf.csv')
+    print(prediction_mpg)
+    return(jsonify({'smartway prediction': prediction_smartway
+    }))
 
 #--------------------
 
@@ -75,10 +83,19 @@ def prediction():
 @app.route("/about")
 def about():
 
-   return render_template("about.html")
+    return render_template("about.html")
 #--------------------
 @app.route("/smartway")
 def smartway():
+    return render_template("smartway.html")
+
+#--------------------
+@app.route("/mpg")
+def mpg():
+    return render_template("mpg.html")
+
+#--------------------
+def smartway_model():
     filename_smartway = 'Model/finalized_smartway_model_KN.sav'
     # load the model from disk
     loaded_model_smartway  = pickle.load(open(filename_smartway , 'rb'))
@@ -88,23 +105,8 @@ def smartway():
     print(newy_smartway )
     result_smartway  = loaded_model_smartway.score(newX_smartway, newy_smartway)
     ynew_smartway  = loaded_model_smartway.predict(newX_smartway).tolist()
+    return ynew_smartway 
     
-    return(jsonify({'prediction': ynew_smartway }))
-
-#--------------------
-@app.route("/mpg")
-def mpg():
-    filename_mpg = 'Model/finalized_mpg_model_KN.sav'
-    # load the model from disk
-    loaded_model_mpg = pickle.load(open(filename_mpg, 'rb'))
-    new_mpg_df = pd.read_sql_query("SELECT * FROM test",conn)
-    newX_mpg = new_mpg_df.drop(['id','cmb_mpg'], axis=1)
-    newy_mpg = new_mpg_df['cmb_mpg']
-    print(newy_mpg)
-    result_mpg = loaded_model_mpg.score(newX_mpg, newy_mpg)
-    ynew_mpg = loaded_model_mpg.predict(newX_mpg).tolist()
-    
-    return(jsonify({'prediction': ynew_mpg}))
 
 ###################### End #########################
 if __name__ == "__main__":
