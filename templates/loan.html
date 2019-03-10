@@ -8,26 +8,28 @@
 <head>
   <!-- All meta tags should be first in the header-->
   <meta charset="UTF-8">
-  <title>Project 4: Game of Cars -dashboard </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project: Game of Cars -dashboard </title>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <!-- Bootstrap links -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
   <!-- Bootstrap css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/bootstrap_simplex.css">
+  <link rel="stylesheet" href="static/css/bootstrap_simplex.css">
 
   <!--The following uses data URI and can be used to avoid fake favicon requests:-->
   <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 
   <!-- css Style Scripts -->
   <link rel="stylesheet" href="static/css/style.css">
-  <link rel="stylesheet" href="../static/css/carousel.css">
 
 
 </head>
@@ -47,24 +49,25 @@
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/"><i class="fas fa-car"></i> Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/"><i class="fas fa-car"></i> Home </a>
         </li>
-        <li class ="nav-item dropdown">
-          <a class ="nav-link dropdown-toggle" data-toggle="dropdown" data-target ="#dropdown_target" href="#"><i class="fas fa-car"></i>  Game Cards
-          
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target" href="#"><i class="fas fa-car"></i>
+            Game Cards
+
           </a>
-          <ul class ="dropdown-menu" aria-labelledby="dropdown_target">
-            <li><a class ="dropdown-item" href="/loan"><i class="fas fa-hand-holding-usd"></i> Loan Model</a></li>
-            <li><a class ="dropdown-item" href="/mpg"><i class="fas fa-gas-pump"></i> Mpg Card </a></li>
-            <li><a class ="dropdown-item" href="/resale"><i class="fas fa-money-check-alt"></i> Resale Model</a></li>
-           <li><a class ="dropdown-item" href="/smartway"><i class="far fa-grin-stars"></i> Smartway Model</a></li>
-        </ul>
-      </li>
+          <ul class="dropdown-menu" aria-labelledby="dropdown_target">
+            <li><a class="dropdown-item" href="/loan"><i class="fas fa-hand-holding-usd"></i> Loan Model</a></li>
+            <li><a class="dropdown-item" href="/mpg"><i class="fas fa-gas-pump"></i> Mpg Model</a></li>
+            <li><a class="dropdown-item" href="/resale"><i class="fas fa-money-check-alt"></i> Resale Model</a></li>
+            <li><a class="dropdown-item" href="/smartway"><i class="far fa-grin-stars"></i> Smartway Model</a></li>
+          </ul>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/magic"><i class="fas fa-car"></i> The Magic</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/featured"><i class="fas fa-car"></i> Featured Plots</a>
+          <a class="nav-link" href="/featured"><i class="fas fa-car"></i> Prediction Page</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about"><i class="fas fa-car"></i> About</a>
@@ -75,109 +78,118 @@
   <!-- End of the Navigation bar-->
   <!--###################### Begin Loan Model KMeans Write up##############################################-->
   <!-- Start of Main container-->
-  <div class = "container-fluid">
-    <div class = "row" style = "padding-bottom: 10px;">
+  <div class="container-fluid">
+    <div class="row" style="padding-bottom: 10px;">
       <!--################## RIGHT SIDE OF PG#####################-->
-      <div class = "col-md-5">
-      <!-- Gamee of cards logo-->
-         <div class = "panel-heading panel-heading-custom">
-          <h3><i class="fas fa-gamepad"></i> Game of Cars <i class = "fas fa-car"></i></h3>
+      <div class="col-md-5">
+        <!-- Gamee of cards logo-->
+        <div class="panel-heading panel-heading-custom">
+          <h3><i class="fas fa-gamepad"></i> Game of Cars <i class="fas fa-car"></i></h3>
         </div> <!-- End Panel heading-->
         <!--  Start Row 2-->
-        <div class = "row">
+        <div class="row">
           <h5>Decision Classification: Categories</h5>
         </div> <!-- End Row 2-->
         <!-- Start Row 3-->
-        <div class = "row">
-          <img class="img-responsive highlight" src="/static/Images/descionTree_1.PNG" style = "width: 100%" alt="Cluster-Category">
+        <div class="row">
+          <img class="img-responsive highlight" src="/static/Images/descionTree_1.PNG" style="width: 100%" alt="Cluster-Category">
 
         </div> <!-- End Row 3-->
 
         <!-- Start Row 4-->
-        <div class = "row">
+        <div class="row">
           <h3><u>Model Features</u></h3>
         </div> <!-- End Row 4-->
         <!-- Start Row 5-->
-        <div class = "row">
-          <h5> <font color = "aliceblue">
-          <!-- Start Ordered List-->
-          <ol>
-            <li>Installment</li>
-            <li>Home Ownership</li>
-            <li>Verification Status</li>
-            <li>Loan Amount</li>
-            <li>Loan Term</li>
-            <li>Interest Rate</li>
-            <li>Credit Grade</li>
-            <li>Payment Plan</li>
-            <li>Loan Purpose</li>
-            <li>Address State</li>
-            <li>Debt-to-Income Ratio</li>
-            <li>Credit Line Life</li>
-            <li>Late Fees</li>
-            <li>Application Type</li>
+        <div class="row">
+          <h5>
+            <font color="aliceblue">
+              <!-- Start Ordered List-->
+              <ol>
+                <li>Installment</li>
+                <li>Home Ownership</li>
+                <li>Verification Status</li>
+                <li>Loan Amount</li>
+                <li>Loan Term</li>
+                <li>Interest Rate</li>
+                <li>Credit Grade</li>
+                <li>Payment Plan</li>
+                <li>Loan Purpose</li>
+                <li>Address State</li>
+                <li>Debt-to-Income Ratio</li>
+                <li>Credit Line Life</li>
+                <li>Late Fees</li>
+                <li>Application Type</li>
 
 
 
-          </ol> <!-- End Ordered List-->
-          </h5></font>
+              </ol> <!-- End Ordered List-->
+          </h5>
+          </font>
         </div> <!-- End Row 5-->
 
-    
-        
+
+
       </div> <!-- End col-md-5-->
       <!--################## END RIGHT SIDE OF PG ###################-->
       <!--################# SEPERATION COLUMN ###################-->
-      <div class = "col-md-1"></div>
+      <div class="col-md-1"></div>
       <!--################### END SEPERATION COLUMN #########-->
-     
+
       <!--################# LEFT SIDE OF PG #########################-->
-      <div class = "col-md-6">
-        <div class = "row">
-          <div class = "col-md-12">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-12">
             <h2>
               <u>Decision Tree Machine Learning Model </u>
             </h2>
-            </div>
           </div>
+        </div>
         <!-- Row 2-->
-        <div class = "row">
-          <div class = "col-md-6">
-            <img class="img-responsive highlight" src="/static/Images/DCAnimated.gif" style = "width: 80%" alt="Cluster-gif-1">      
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-responsive highlight" src="/static/Images/DCAnimated.gif" style="width: 80%" alt="Cluster-gif-1">
           </div>
-          <div class = "col-md-6">
-            <img class="img-responsive highlight" src="/static/Images/DCAnimated+3.gif" style = "width: 80%" alt="Cluster-gif-2">      
+          <div class="col-md-6">
+            <img class="img-responsive highlight" src="/static/Images/DCAnimated+3.gif" style="width: 80%" alt="Cluster-gif-2">
           </div>
 
         </div> <!-- End Row 2-->
 
         <!--################# START RIGHT SIDE CONTENT #################################-->
-        <div class = "row"> <!-- 1st row of content-->
-          <div class = "col-md-12 highlight">
-            <div class = "row">
-            <h2><u>Decision Tree Information:</u></h2>
+        <div class="row">
+          <!-- 1st row of content-->
+          <div class="col-md-12 highlight">
+            <div class="row">
+              <h2><u>Decision Tree Information:</u></h2>
             </div>
-            <div class = "row"> <!-- 2ND ROW OF CONTENT-->
-              <div class = "col-md-12">
+            <div class="row">
+              <!-- 2ND ROW OF CONTENT-->
+              <div class="col-md-12">
                 <h5>
-                    <font color = "#1E90FF">
-                    <p> <strong> The objective of K-means is simple: group similar data points together and discover underlying patterns.</p></strong>
-                    <p> <strong> To achieve this objective, K-means looks for a fixed number (k) of clusters in a dataset.</p> </strong>
-                    <p><strong>KMeans is in the family of Unsupervised Learning where we have no variable to predict tied to the data. Instead of having an output, the data only has an input which would be multiple variables that describe the data.</strong></p>
-                    </font>                  
+                  <font color="#1E90FF">
+                    <p> <strong> The objective of K-means is simple: group similar data points together and discover
+                        underlying patterns.</p></strong>
+                    <p> <strong> To achieve this objective, K-means looks for a fixed number (k) of clusters in a
+                        dataset.</p> </strong>
+                    <p><strong>KMeans is in the family of Unsupervised Learning where we have no variable to predict
+                        tied to the data. Instead of having an output, the data only has an input which would be
+                        multiple variables that describe the data.</strong></p>
+                  </font>
                 </h5>
               </div> <!-- END COL-MD-12 -->
             </div> <!-- END 2ND ROW OF CONTENT-->
-            <div class = "row"> <!-- 3RD ROW OF CONTENT-->
+            <div class="row">
+              <!-- 3RD ROW OF CONTENT-->
               <h2><u>Loan Status Category Model</u></h2>
 
             </div> <!-- END 3RD ROW OF CONTENT-->
 
           </div> <!-- End High light box-->
         </div> <!-- End 1st row of content-->
-        
 
-         <!--################# END RIGHT SIDE CONTENT #################################-->
+
+        <!--################# END RIGHT SIDE CONTENT #################################-->
 
       </div> <!-- End col-md-5-->
 
@@ -185,14 +197,14 @@
     </div> <!-- End Row 1 padding-->
 
   </div> <!-- End of Main container-->
-   <!--###################### End Loan Model KMeans Write up##############################################-->
- 
+  <!--###################### End Loan Model KMeans Write up##############################################-->
+
   <!-- Footer -->
-<footer>
-  <!-- Copyright -->
+  <footer>
+    <!-- Copyright -->
     <p><i class="far fa-copyright"></i>
-       Copyright 2019: Keep Calm and  <i class="fas fa-gas-pump"></i>  On
-    </p>      
+      Copyright 2019: Keep Calm and <i class="fas fa-gas-pump"></i> On
+    </p>
   </footer>
 
   <!--################## All the javascripts used for this page ####################### -->
@@ -202,8 +214,8 @@
   <script type="text/javascript" src="../static/js/person_selection.js"></script>
 
 
-  
- 
+
+
   <!-- End of the scripts -->
 </body>
 

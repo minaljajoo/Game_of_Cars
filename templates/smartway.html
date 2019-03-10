@@ -15,20 +15,22 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <!-- Bootstrap links -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
   <!-- Bootstrap css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/bootstrap_simplex.css">
+  <link rel="stylesheet" href="static/css/bootstrap_simplex.css">
 
   <!--The following uses data URI and can be used to avoid fake favicon requests:-->
   <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 
   <!-- css Style Scripts -->
   <link rel="stylesheet" href="static/css/style.css">
-  <link rel="stylesheet" href="../static/css/carousel.css">
+
 
 </head>
 <!--########################### Body for html #################################-->
@@ -47,24 +49,25 @@
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/"><i class="fas fa-car"></i> Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/"><i class="fas fa-car"></i> Home </a>
         </li>
-        <li class ="nav-item dropdown">
-          <a class ="nav-link dropdown-toggle" data-toggle="dropdown" data-target ="#dropdown_target" href="#"><i class="fas fa-car"></i>  Game Cards
-          
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target" href="#"><i class="fas fa-car"></i>
+            Game Cards
+
           </a>
-          <ul class ="dropdown-menu" aria-labelledby="dropdown_target">
-            <li><a class ="dropdown-item" href="/loan"><i class="fas fa-hand-holding-usd"></i> Loan Card</a></li>
-            <li><a class ="dropdown-item" href="/mpg"><i class="fas fa-gas-pump"></i> Mpg Card </a></li>
-            <li><a class ="dropdown-item" href="/resale"><i class="fas fa-money-check-alt"></i> Resale card</a></li>
-           <li><a class ="dropdown-item" href="/smartway"><i class="far fa-grin-stars"></i> Smartway Card</a></li>
-        </ul>
-      </li>
+          <ul class="dropdown-menu" aria-labelledby="dropdown_target">
+            <li><a class="dropdown-item" href="/loan"><i class="fas fa-hand-holding-usd"></i> Loan Model</a></li>
+            <li><a class="dropdown-item" href="/mpg"><i class="fas fa-gas-pump"></i> Mpg Model</a></li>
+            <li><a class="dropdown-item" href="/resale"><i class="fas fa-money-check-alt"></i> Resale Model</a></li>
+            <li><a class="dropdown-item" href="/smartway"><i class="far fa-grin-stars"></i> Smartway Model</a></li>
+          </ul>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/magic"><i class="fas fa-car"></i> The Magic</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/featured"><i class="fas fa-car"></i> Featured Plots</a>
+          <a class="nav-link" href="/featured"><i class="fas fa-car"></i> Prediction Page</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about"><i class="fas fa-car"></i> About</a>
@@ -75,102 +78,123 @@
   <!-- End of the Navigation bar-->
   <!--------------------------------------------------------->
   <!-- Start of Main container-->
-  <div class ="container-fluid">
-    <div class="row .margin-top-30 " style = "padding-bottom:20px; ">
-      <div class ="col-md-8">
+  <div class="container-fluid">
+    <div class="row .margin-top-30 " style="padding-bottom:20px; ">
+      <div class="col-md-8">
 
-         <!-- Main panel-->
+        <!-- Main panel-->
 
-          <h1> <i class="far fa-grin-stars"></i>
-            SMARTWAY: BEHIND THE SCENES
-          </h1>
+        <h1> <i class="far fa-grin-stars"></i>
+          SMARTWAY: BEHIND THE SCENES
+        </h1>
 
-          <h2>
-              
-        Machine Learning through Scikit-learn with the K-nearest neighbors<br> <img class="img-responsive highlight_blue " src="/static/Images/scikit.png" style = "width: 20%" alt=""></h2>
-        <br> 
-            <p>K-nearest neighbors, is an example of instance-based learning where we instead simply store the training data and use it to make new predictions.
-              In general, instance-based techniques such as k-nearest neighbors are lazy learners, as compared to model-based techniques which are eager learners. A lazy approach will only "learn" from the data (to make a prediction) when a new query is made while an eager learner will learn from the data right away and build a generalized model capable of predicting any value. Thus, lazy learners are fast to train and slower to query, while eager learners are slower to train but can make new predictions very quickly.
-            </p>
+        <h2>
 
-       
-          <p> Machine learning was implemented by the K-nearest neighbors model through Scikit-learn. K-nearest neighbors is a simple model that creates labels with training data and then predicts a label. It finds a predefined number of training samples closest in distance to the new point and uses that to predict the label. The predefined number is also known as K and needs to be odd in order to prevent ties and create an unambiguous result. K-nearest neighbors is especially useful and accurate for smaller sets of data, which fits our data set particularly well. </p>
-          <h3> Implementation of K-nearest neighbors model</h3>
-          <p>Get the orignal data and encode it so can be feed into ML                 <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_1.png" style = "width: 100%" alt=" ">
-          <br>
-          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_2.png" style = "width: 100%" alt=" ">   
-        </p>           
-          <p>The original data was divided into two groups: training and testing.
-          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_3.png" style = "width: 100%" alt=" ">
+          Machine Learning through Scikit-learn with the K-nearest neighbors<br> <img class="img-responsive highlight_blue "
+            src="/static/Images/scikit.png" style="width: 20%" alt=""></h2>
+        <br>
+        <p>K-nearest neighbors, is an example of instance-based learning where we instead simply store the training
+          data and use it to make new predictions.
+          In general, instance-based techniques such as k-nearest neighbors are lazy learners, as compared to
+          model-based techniques which are eager learners. A lazy approach will only "learn" from the data (to make a
+          prediction) when a new query is made while an eager learner will learn from the data right away and build a
+          generalized model capable of predicting any value. Thus, lazy learners are fast to train and slower to query,
+          while eager learners are slower to train but can make new predictions very quickly.
         </p>
-            <p>
-             Training was completed with the training data and was stored in the Models folder using pickle. The model was then tested with the test data and resulted in an accuracy of 0.969. 
-                      
-            <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_4.png" style = "width: 100%" alt=" ">
-                    <br>  
-            <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_5.png" style = "width: 100%" alt=" ">
-             Once the model was tested and proven to be accurate, the customer data, also known as validation data, can be fed into the model, which was not seen before and a prediction can be obtained. At the moment, the customer data is not defined by user input, but in the future, it will be. </p>
-        
 
-        </div>
 
-   <!-- right side-->
+        <p> Machine learning was implemented by the K-nearest neighbors model through Scikit-learn. K-nearest neighbors
+          is a simple model that creates labels with training data and then predicts a label. It finds a predefined
+          number of training samples closest in distance to the new point and uses that to predict the label. The
+          predefined number is also known as K and needs to be odd in order to prevent ties and create an unambiguous
+          result. K-nearest neighbors is especially useful and accurate for smaller sets of data, which fits our data
+          set particularly well. </p>
+        <h3> Implementation of K-nearest neighbors model</h3>
+        <p>Get the orignal data and encode it so can be feed into ML <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_1.png"
+            style="width: 100%" alt=" ">
+          <br>
+          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_2.png" style="width: 100%"
+            alt=" ">
+        </p>
+        <p>The original data was divided into two groups: training and testing.
+          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_3.png" style="width: 100%"
+            alt=" ">
+        </p>
+        <p>
+          Training was completed with the training data and was stored in the Models folder using pickle. The model was
+          then tested with the test data and resulted in an accuracy of 0.969.
 
-   <div class="col-md-4" id="sticky-sidebar" >
-      <div class="row">
-        <div class= "col-md-5 ">
-            <a href="/loan">
-          <div class="card bg-danger text-center" style="width:150px; ">
-            <div class ="zoom">
-            <img class="card-img-top mx-auto d-block" src="/static/Images/red-car-in-shopping-cart.png" style ="width: 100%; " alt="Loan Card" ></div>
-           <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Model</div>
-          </div>
-        </a>
+          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_4.png" style="width: 100%"
+            alt=" ">
+          <br>
+          <img class="img-responsive highlight_blue " src="/static/Images/Model_images/Kneighbors_5.png" style="width: 100%"
+            alt=" ">
+          Once the model was tested and proven to be accurate, the customer data, also known as validation data, can be
+          fed into the model, which was not seen before and a prediction can be obtained. At the moment, the customer
+          data is not defined by user input, but in the future, it will be. </p>
+
+
       </div>
-      <div class= "col-md-5 ">
-        <a href="/mpg">
-            <div class="card bg-danger text-center" style="width:150px;">
-              <div class ="zoom">
-              <img class="card-img-top mx-auto d-block" src="/static/Images/mpg.jpg" style ="width: 100%; " alt="Mpg Card" ></div>
-             <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Model</div>
-            </div>
-          </a>
-          </div>
-</div>
-<br>
-<br>
-<div class="row">
-    <div class= "col-md-5 ">
-          <a href="/resale">
+
+      <!-- right side-->
+
+      <div class="col-md-4" id="sticky-sidebar">
+        <div class="row">
+          <div class="col-md-5 ">
+            <a href="/loan">
               <div class="card bg-danger text-center" style="width:150px; ">
-                <div class ="zoom">
-                <img class="card-img-top mx-auto d-block" src="/static/Images/Resale.jpg" style ="width: 100%; " alt="Resalr Card" ></div>
-               <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Model</div>
+                <div class="zoom">
+                  <img class="card-img-top mx-auto d-block" src="/static/Images/red-car-in-shopping-cart.png" style="width: 100%; "
+                    alt="Loan Card"></div>
+                <div class="btn btn-primary mt-auto"><i class="fas fa-hand-holding-usd"></i> Loan Model</div>
               </div>
             </a>
           </div>
-          <div class= "col-md-5 ">
-            <a href="/smartway">
-                <div class="card bg-danger text-left highlight " style="width:150px;">
-                  <div class ="zoom">
-                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style ="width: 100%;  opacity: 1; " alt="Smartway Card" ></div>
-                 <div class="btn btn-primary mt-auto " ><i class="far fa-grin-stars"></i> Smartway Model</div>
-                </div>
-              </a>
+          <div class="col-md-5 ">
+            <a href="/mpg">
+              <div class="card bg-danger text-center" style="width:150px;">
+                <div class="zoom">
+                  <img class="card-img-top mx-auto d-block" src="/static/Images/mpg.jpg" style="width: 100%; " alt="Mpg Card"></div>
+                <div class="btn btn-primary mt-auto"><i class="fas fa-gas-pump"></i> Mpg Model</div>
+              </div>
+            </a>
           </div>
         </div>
-   
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-5 ">
+            <a href="/resale">
+              <div class="card bg-danger text-center" style="width:150px; ">
+                <div class="zoom">
+                  <img class="card-img-top mx-auto d-block" src="/static/Images/Resale.jpg" style="width: 100%; " alt="Resalr Card"></div>
+                <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Resale Model</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-5 ">
+            <a href="/smartway">
+              <div class="card bg-danger text-left highlight " style="width:150px;">
+                <div class="zoom">
+                  <img class="card-img-top mx-auto d-block" src="/static/Images/smartway.png" style="width: 100%;  opacity: 1; "
+                    alt="Smartway Card"></div>
+                <div class="btn btn-primary mt-auto "><i class="far fa-grin-stars"></i> Smartway Model</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-    <br> 
+    <br>
 
   </div>
   <!-- Footer -->
-<footer>
-  <!-- Copyright -->
+  <footer>
+    <!-- Copyright -->
     <p><i class="far fa-copyright"></i>
-       Copyright 2019: Keep Calm and  <i class="fas fa-gas-pump"></i>  On
-    </p>      
+      Copyright 2019: Keep Calm and <i class="fas fa-gas-pump"></i> On
+    </p>
   </footer>
 
   <!--################## All the javascripts used for this page ####################### -->
@@ -178,7 +202,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
- 
+
   <!-- End of the scripts -->
 </body>
 
