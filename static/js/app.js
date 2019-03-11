@@ -1,6 +1,6 @@
-/*   Project 3: imdb-dashboard 
-JavaScript file: Purpose- initializations of index.html with carousel and default settings 
-Also take user input and update the index.html   */
+/*   Final Project: Game of Cars-dashboard
+JavaScript file: Purpose- initializations of prediction.html 
+  */
 /*************** Set all the variables ***********/
 
 // allShows must be passed in from flask -> index.html 
@@ -9,11 +9,26 @@ Also take user input and update the index.html   */
 
 /*************** Initialize the dashboard ***********/
 function init() {
+  let selModel = valModels.selectModel;
+  let vmodels = valModels.TestModels;
+  let spred = valModels.smartwayPred;
+  let mpred = valModels.mpgPred;
+  console.log(vmodels);
+  console.log(spred);
+  console.log(mpred);
+  console.log(selModel);
+ 
+    var li = document.createElement('li');
+    var ul = document.getElementById('predName');
 
-  let models = allModels.model;
-  let ids = allModels.id;
-  console.log(models)
-  console.log(ids)
+
+    //Set attributes for the default shows
+  
+    li.appendChild(document.createTextNode(selModel));
+    ul.appendChild(li);
+
+    
+  
   }
   //-----------------------------------------
   //Plot all the plots with the default shows 
