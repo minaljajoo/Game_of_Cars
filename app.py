@@ -88,6 +88,14 @@ def about():
 @app.route("/smartway")
 def smartway():
     return render_template("smartway.html")
+#--------------------s
+@app.route("/loan")
+def loan():
+    return render_template("loan.html")
+#--------------------
+@app.route("/resale")
+def resale():
+    return render_template("resale.html")
 
 #--------------------
 @app.route("/mpg")
