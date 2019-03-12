@@ -67,7 +67,7 @@
           <a class="nav-link" href="/magic"><i class="fas fa-car"></i> The Magic</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/featured"><i class="fas fa-car"></i> Prediction Page</a>
+          <a class="nav-link" href="/prediction"><i class="fas fa-car"></i> Prediction Page</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about"><i class="fas fa-car"></i> About</a>
@@ -85,35 +85,20 @@
 
         <!-- Main panel-->
 
-        <h3><i class="fas fa-gamepad"></i> GAME OF CARS: BEHIND THE SCENES <i class="fas fa-car"></i>
-
+        <h3><i class="fas fa-gamepad"></i> GAME OF CARS: Predictions Page<i class="fas fa-car"></i>
         </h3>
-        <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style="width: 40%" alt="banner">
+
+      <div class="card bg-info highlight" style="width: 11rem; ">
+          <div class="card-header ">
+            <h5>Model Name </h5>
+          </div>
+          <div class="card-body">
+            <ul id="predName"></ul>
+            
+          </div>
+        </div>
       </div>
-      <br>
-      <div class="panel-body">
-
-        <p>
-          <strong>App.py: </strong> </p>
-
-        <p>Calls restful apis to connect all HTML and JavaScript files to run the webpage by providing all the routes
-          in the webpage. </p>
-
-        <strong>HTML and JavaScript: </strong> </p>
-        <p>A frontend for Game of Cars, which is user friendly through the use of JavaScript and CSS styling. The
-          JavaScript allows for animations, while the CSS allows for styling to make the webpages look better for the
-          user. Bootstrap was the particular style used.</p>
-
-        <strong>Jupyter Notebook: </strong> </p>
-        <p>Jupyter Notebook was used to clean the raw data and store it into csv files. It was also used to test the
-          models.</p>
-        <strong>SQL/SQLite: </strong> </p>
-        <p>The cleaned data was put into four tables and then stored into a database through SQLite. One table was the
-          original data and another table was the validation data. The other two tables were those two tables converted
-          into integers. </p>
-      </div>
-    </div>
-  </div>
+ 
 
 
   <!-- right side-->
@@ -179,7 +164,13 @@
   <!-- Plotly and d3 and javascript files -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script>
+      const valModels = JSON.parse('{{ val_models | tojson | safe}}');
+     
+    </script>
+    <script type="text/javascript" src="static/js/app.js"></script>
 
+    <!-- End of the scripts      <script type="text/javascript" src="static/js/plots.js"></script>-->
 
   <!-- End of the scripts -->
 </body>

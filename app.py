@@ -39,7 +39,7 @@ Car = Base.classes.car
 CarValidate = Base.classes.carvalidate
 Train = Base.classes.train
 Test = Base.classes.test
-
+SelectModel = 'BMW 750i'
 
 
 
@@ -70,12 +70,19 @@ def magic():
 # Route to render featured.html: display all the plots
 @app.route("/prediction")
 def prediction():
+    testModels = []
+    names = session.query(CarValidate)
+    for i in names:
+      
+        testModels.append(i.model)
 
-    prediction_smartway = smartway_model()
-    prediction_mpg = pd.read_csv('Model/pred_mpg_tf.csv')
-    print(prediction_mpg)
-    return(jsonify({'smartway prediction': prediction_smartway
-    }))
+    predSmartway = smartway_model()
+    prediction_df= pd.read_csv('Model/pred_mpg_tf.csv')
+    pred_mpg = prediction_df.values.squeeze()
+    predMpg = pred_mpg.tolist()
+    name_blob = {'selectModel' : SelectModel,'TestModels': testModels,'smartwayPred': predSmartway,'mpgPred': predMpg
+    }
+    return render_template("prediction.html", val_models=name_blob)
 
 #--------------------
 
@@ -129,9 +136,10 @@ def smartway_model():
     smartway_new_df = pd.read_sql_query("SELECT * FROM test",conn)
     newX_smartway  =  smartway_new_df.drop(['id','smartway'], axis=1)
     newy_smartway  =  smartway_new_df['smartway']
-    print(newy_smartway )
+    
     result_smartway  = loaded_model_smartway.score(newX_smartway, newy_smartway)
     ynew_smartway  = loaded_model_smartway.predict(newX_smartway).tolist()
+    print(ynew_smartway)
     return ynew_smartway 
     
 
