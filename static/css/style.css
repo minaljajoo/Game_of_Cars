@@ -14,13 +14,13 @@ html{
 
 body {
 
-      background: url("/static/images/car_background_style.png");
+      background: url("../images/car_background_style.png");
       background-size: cover;
       background-repeat: no-repeat;
     }
 
 .navbar{
-  background: url("/static/images/car_navbar.jpg");
+  background: url("../images/car_navbar.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
