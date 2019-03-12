@@ -39,7 +39,7 @@ Car = Base.classes.car
 CarValidate = Base.classes.carvalidate
 Train = Base.classes.train
 Test = Base.classes.test
-SelectModel = 'BMW 750i'
+
 
 
 
@@ -50,14 +50,40 @@ session = Session(engine)
 # Create an instance of Flask
 app = Flask(__name__)
 
-
-
+#--------------------
+def smartway_model():
+    filename_smartway = 'Model/finalized_smartway_model_KN.sav'
+    # load the model from disk
+    loaded_model_smartway  = pickle.load(open(filename_smartway , 'rb'))
+    smartway_new_df = pd.read_sql_query("SELECT * FROM test",conn)
+    newX_smartway  =  smartway_new_df.drop(['id','smartway'], axis=1)
+    newy_smartway  =  smartway_new_df['smartway']
+    
+    result_smartway  = loaded_model_smartway.score(newX_smartway, newy_smartway)
+    ynew_smartway  = loaded_model_smartway.predict(newX_smartway).tolist()
+    print(ynew_smartway)
+    return ynew_smartway 
+#--------
+testModels = []
+testSmartway = []
+testMpg = []
+names = session.query(CarValidate)
+for i in names:
+    testModels.append(i.model)
+    testSmartway.append(i.smartway)
+    testMpg.append(i.cmb_mpg)
+predSmartway = smartway_model()
+prediction_df= pd.read_csv('Model/pred_mpg_tf.csv')
+pred_mpg = prediction_df.values.squeeze()
+predMpg = pred_mpg.tolist()
+name_blob = {'TestModels': testModels,'smartwayTest': testSmartway,'mpgTest': testMpg,'smartwayPred': predSmartway,'mpgPred': predMpg
+    }
 ######################
 # Route to render index.html
 @app.route("/")
 def home():
-
-   return render_template("index.html")
+    
+    return render_template("index.html", val_models=name_blob)
 #-------------------
 
 # Route to render magic.html: Display the techinical report
@@ -70,18 +96,8 @@ def magic():
 # Route to render featured.html: display all the plots
 @app.route("/prediction")
 def prediction():
-    testModels = []
-    names = session.query(CarValidate)
-    for i in names:
-      
-        testModels.append(i.model)
 
-    predSmartway = smartway_model()
-    prediction_df= pd.read_csv('Model/pred_mpg_tf.csv')
-    pred_mpg = prediction_df.values.squeeze()
-    predMpg = pred_mpg.tolist()
-    name_blob = {'selectModel' : SelectModel,'TestModels': testModels,'smartwayPred': predSmartway,'mpgPred': predMpg
-    }
+ 
     return render_template("prediction.html", val_models=name_blob)
 
 #--------------------
@@ -111,36 +127,25 @@ def mpg():
 #--------------------
 @app.route("/loan_amir")
 def loan_amir():
-   return render_template("loan_amir.html")
+   return render_template("loan_amir.html",val_models=name_blob)
+
 
 #--------------------
 @app.route("/loan_sarah")
 def loan_sarah():
-   return render_template("loan_sarah.html")
+   return render_template("loan_sarah.html",val_models=name_blob)
 #--------------------
 @app.route("/loan_nadia")
 def loan_nadia():
-   return render_template("loan_nadia.html")
+   return render_template("loan_nadia.html",val_models=name_blob)
 
 #--------------------
 @app.route("/loan_dan")
 def loan_dan():
-   return render_template("loan_dan.html")
+   return render_template("loan_dan.html",val_models=name_blob)
 
 
-#--------------------
-def smartway_model():
-    filename_smartway = 'Model/finalized_smartway_model_KN.sav'
-    # load the model from disk
-    loaded_model_smartway  = pickle.load(open(filename_smartway , 'rb'))
-    smartway_new_df = pd.read_sql_query("SELECT * FROM test",conn)
-    newX_smartway  =  smartway_new_df.drop(['id','smartway'], axis=1)
-    newy_smartway  =  smartway_new_df['smartway']
-    
-    result_smartway  = loaded_model_smartway.score(newX_smartway, newy_smartway)
-    ynew_smartway  = loaded_model_smartway.predict(newX_smartway).tolist()
-    print(ynew_smartway)
-    return ynew_smartway 
+
     
 
 ###################### End #########################

@@ -9,141 +9,65 @@ JavaScript file: Purpose- initializations of prediction.html
 
 /*************** Initialize the dashboard ***********/
 function init() {
-  let selModel = valModels.selectModel;
-  let vmodels = valModels.TestModels;
-  let spred = valModels.smartwayPred;
-  let mpred = valModels.mpgPred;
+
+  var sactual = valModels.smartwayTest;
+  var mactual = valModels.mpgTest;
+  var vmodels = valModels.TestModels;
+  var spred = valModels.smartwayPred;
+  var mpred = valModels.mpgPred;
   console.log(vmodels);
   console.log(spred);
   console.log(mpred);
-  console.log(selModel);
- 
-    var li = document.createElement('li');
-    var ul = document.getElementById('predName');
 
 
-    //Set attributes for the default shows
-  
-    li.appendChild(document.createTextNode(selModel));
-    ul.appendChild(li);
 
-    
-  
-  }
-  //-----------------------------------------
-  //Plot all the plots with the default shows 
-  
-/**************************
 
-//------------------------------------
-// Function:add_element_to_array
-// Add the shows to 'listSerials' array 
-function add_element_to_array() {
-  //Check for the  max. show entries count
-  if (seriesCount == maxSeries) {
-    alert("You have entered max no of series");
-    document.getElementById("myInput").value = "";
-  } else {
-    // Check if user enter any show name
-    var inputSeries = document.getElementById("myInput").value;
-    if (inputSeries == "" || inputSeries == null) {
-      alert("You haven't entered anything");
-    } else {
-      //Call a function to check if the user entered  new show name from the list
-      if (searchNewSeries(inputSeries)) {
-        //Call a function to check if it is valid show name from the list
-        if (searchSeries(inputSeries)) {
-          // If it is valid new show entry then add it to the array 'listSerials' 
-          listSerials[x] = inputSeries;
-          document.getElementById("myInput").value = "";
-          update_array(listSerials[x]);
-          seriesCount++;
-          x++;
-        }
-      } else {
-        document.getElementById("myInput").value = "";
-      }
-    }
-  }
+
 }
-//------------------------------------
-//Function: searchNewSeries
-//Check if the user entered  new show name from the list
-function searchNewSeries(newSeries) {
-  var flag = true;
-  for (var i = 0; i < listSerials.length; i++) {
-    if (newSeries === listSerials[i]) {
-      flag = false;
+//-----------------------------------------
+//
+function update_model(mod_name) {
+  var mpg_str = ''
+  var smart_str = ''
+  var sactual = valModels.smartwayTest;
+  var mactual = valModels.mpgTest;
+  var vmodels = valModels.TestModels;
+  var spred = valModels.smartwayPred;
+  var mpred = valModels.mpgPred;
+  console.log("update model")
+  for (var i = 0; i < 8; i++) {
+    if (vmodels[i] == mod_name) {
+      if (mpred[i] == 2) {
+        mpg_str = 'High MPG i.e. MPG more than 50mpg';
+      } else if (mpred[i] == 0) {
+        mpg_str = 'Low MPG i.e. MPG less than 23mpg';
+      } else if (mpred[i] == 1) {
+        mpg_str = 'Medium MPG i.e. MPG in range of 23mpg to 50mpg';
+      };
+
+      if (spred[i] == 0) {
+        smart_str = 'This vehical is a ELITE Smartway vehicle';
+      } else if (spred[i] == 1) {
+        smart_str = 'This vehical is not a Smartway vehicle';
+      } else if (spred[i] == 2) {
+        smart_str = 'This vehical is a Smartway vehicle';
+      };
+      ampg_str = ('Actual: MPG value is ' + mactual[i]);
+      asmart_str = ('Actual: Smartway value is ' + sactual[i]);
+      document.getElementById('predModel').innerHTML = mod_name;
+      document.getElementById('actualMpg').innerHTML = ampg_str;
+      document.getElementById('actualSmart').innerHTML = asmart_str;
+      document.getElementById('predMpg').innerHTML = mpg_str;
+      document.getElementById('predSmart').innerHTML = smart_str;
+
     }
 
   }
-  if (flag == false) {
-    alert("The show was already selected");
-  }
-  return flag;
-}
-//------------------------------------
-//Function: searchSeries
-//Check if it is valid show name from the list
-function searchSeries(enterSeries) {
-  var flag = false;
-  for (var i = 0; i < series.length; i++) {
-    if (enterSeries === series[i]) {
-      flag = true;
-    }
 
-  }
-  if (flag == false) {
-    alert("No such show was found");
-  }
-  return flag;
-}
-//------------------------------------
-//Function: update_array
-//Display the show entered by user to the 'Update Plot' card
-function update_array(newSeries) {
-  var li = document.createElement('li');
-  var ul = document.getElementById('seriesList');
-  var xButton = document.createElement("button");
-  var seriesName = newSeries + " ";
-  li.setAttribute('id', x);
-  li.appendChild(document.createTextNode(seriesName));
-  ul.appendChild(li);
-  xButton.setAttribute('id', x);
-  xButton.setAttribute("onclick", "removeSeries(" + x + ")");
-  xButton.setAttribute("class", "sourceText fas fa-times");
-  $(xButton.sourceText).append('<i class="fas fa-times"></i>');
-  li.appendChild(xButton);
-}
 
-//------------------------------------
-//Function: removeSeries
-//Remove the show name from list if user click on 'x' button
-function removeSeries(itemid) {
-  var item = document.getElementById(itemid);
-  var ul = document.getElementById('seriesList');
-  ul.removeChild(item);
-  delete listSerials[itemid];
-  var checkArray = listSerials.every(function (v) {
-    return v === null;
-  });
-
-  if (checkArray) {
-    resetAll();
-  } else {
-    seriesCount--;
-  }
-}
-//------------------------------------
-//Function: resetAll
-//Reset all the variables and list element 
-function resetAll() {
-  document.getElementById("seriesList").innerHTML = "";
-  x = 0;
-  seriesCount = 0;
-  listSerials = [];
 }
 /*************** Initialize the dashboard ***********/
+console.log("start js");
 init();
 
 /************************ End of app.js JavaScript file ************************ */

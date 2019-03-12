@@ -67,9 +67,6 @@
           <a class="nav-link" href="/magic"><i class="fas fa-car"></i> The Magic</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/prediction"><i class="fas fa-car"></i> Prediction Page</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/about"><i class="fas fa-car"></i> About</a>
         </li>
       </ul>
@@ -82,19 +79,22 @@
     <div class="row" style="padding-bottom:10px;">
       <div class="col-md-5">
 
-        <h3><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i>
+        <h1><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i>
 
-        </h3>
+        </h1>
         <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style="width: 40%" alt="banner">
 
-
-        <p>
-          <strong>Lets Play Game of Cars</strong> </p>
-
-        <!-- @Axander Write up ************************************-->
-        <p> Welcome to Game of Cards Home pg</p>
-
-        <p></p>
+        <br>
+        <h2>
+          Lets Play Game of Cars </h2>
+<br><br>
+        <p>The Game of Cars is a fun, interactive way to become more familiar with machine learning. Inspired by the
+          Game of Life, users draw from the card deck to begin the game. Users are then able to make subsequent
+          decisions based on selections granted by their chosen cards. Meanwhile, machine learning models are called
+          each time a user makes a decision and determines which selections each users should be allotted next.
+          Throughout the game, users can click on ‘model’ cards to read the technical configuration of each machine
+          learning model. Machine learning models used in the Game of Cards include SciLearn Decision Tree, KMeans, K
+          Nearest Neighbor, and Tensor Flow. Pick a card, start the game, and learn more about machine learning </p>
 
 
       </div>
@@ -228,7 +228,10 @@
   <script type="text/javascript" src="../static/js/person_selection.js"></script>
 
 
-
+  <script>
+    var valModels = JSON.parse('{{ val_models | tojson | safe}}');
+  </script>
+  <script type="text/javascript" src="static/js/app.js"></script>
 
   <!-- End of the scripts -->
 </body>

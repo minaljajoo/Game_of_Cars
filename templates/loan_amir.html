@@ -67,9 +67,6 @@
           <a class="nav-link" href="/magic"><i class="fas fa-car"></i> The Magic</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/prediction"><i class="fas fa-car"></i> Prediction Page</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/about"><i class="fas fa-car"></i> About</a>
         </li>
       </ul>
@@ -81,32 +78,26 @@
   <div class="container-fluid">
     <div class="row" style="padding-bottom:10px;">
       <div class="col-md-5">
-        <div class="panel panel-default">
-          <!-- Main panel-->
-          <div class="panel-heading panel-heading-custom">
-            <h3><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i>
 
-            </h3>
-            <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style="width: 40%" alt="banner">
-          </div>
-          <br>
-          <div class="panel-body">
+        <!-- Main panel-->
 
+        <h3><i class="fas fa-gamepad"></i> GAME OF CARS <i class="fas fa-car"></i>
 
-            <!-- @Axander Write up ************************************-->
+        </h3>
+        <img class="img-responsive highlight_blue " src="/static/Images/carbanner.jpg " style="width: 40%" alt="banner">
 
-
-
-          </div>
-        </div>
+        <br>
       </div>
-      <div class="row">
-        <div class="col-md-8 col-lg-12">
-          <p>
-            <h1> Amir's Auto Loan Profile</h1>
-          </p>
-        </div>
+
+
+      <div class="col-md-6">
+        <p>
+          <h1> Amir's Auto Loan Profile</h1>
+        </p>
       </div>
+    </div>
+    <!------------------>
+    <div class="row" style="padding-bottom:10px;">
       <div class="col-md-6 highlight">
         <!-- Row 2-->
         <div class="row">
@@ -243,18 +234,20 @@
         <div class="row">
           <div class="col-md-12">
             <p>
-              <h3><u>Predicted Loan Status: <font color="#7EFF33">Fully Paid</font></u></h3>
+              <h3 style='background-color:black; text-align: center;'><u>Predicted Loan Status: <font color="#7EFF33">Fully
+                    Paid</font></u></h3>
             </p>
           </div>
 
         </div> <!-- End Row 7-->
 
       </div> <!-- End Highlight box 5-->
-      <div class="col-md-1"> </div>
+
       <!-- Being second Highlight box-->
+
       <div class="col-md-5 highlight_blue ">
         <!-- Row 1-->
-        <div class="row">
+        <div class="row " style="padding-bottom:10px;">
           <div class="col-md-12">
             <p>
               <h3><u>
@@ -265,89 +258,98 @@
         </div> <!-- End Row 1-->
 
         <!-- Row 3-->
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card-columns">
-              <a href="/resale">
-                <div class="card bg-danger text-center" style="width:10em; ">
-                  <div class="zoom">
-                    <img class="card-img-top mx-auto d-block" src="/static/Images/Jaguar_XJ_3.jpg" style="width: 100%; "
-                      alt="Loan Card"></div>
-                  <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Jaguar XJ</div>
-                </div>
-              </a>
+        <div class="row" style="padding-bottom:10px;">
+          <div class="col-md-5">
+            <div class="card bg-danger text-center" style="width:10em; ">
+              <div class="zoom">
+                <img class="card-img-top mx-auto d-block" src="/static/Images/Jaguar_XJ_3.jpg" style="width: 100%; "
+                  alt=""></div>
+              <input type="button" class="btn btn-primary" id="btn" value="JAGUAR XJ" onclick="update_model(this.value)">
             </div>
-
           </div> <!-- End 1st car column-->
           <!-- 2nd car column-->
-          <div class="col-md-3">
-            <div class="card-columns">
-              <a href="/resale">
-                <div class="card bg-danger text-center" style="width:10em; ">
-                  <div class="zoom">
-                    <img class="card-img-top mx-auto d-block" src="/static/Images/Jeep_Wrangler.jpeg" style="width: 100%; "
-                      alt="Loan Card"></div>
-                  <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> Jeep Wrangler</div>
-                </div>
-              </a>
+          <div class="col-md-5">
+            <div class="card bg-danger text-center" style="width:10em; ">
+              <div class="zoom">
+                <img class="card-img-top mx-auto d-block" src="/static/Images/Jeep_Wrangler.jpeg" style="width: 100%; "
+                  alt=""></div>
+              <input type="button" class="btn btn-primary" id="btn" value="JEEP Wrangler" onclick="update_model(this.value)">
             </div>
+
 
           </div> <!-- End 2nd car column-->
-
         </div> <!-- End Row 3-->
         <!-- Row 4-->
-        <div class="row">
+        <div class="row" style="padding-bottom:10px;">
           <!-- 1st car column-->
-          <div class="col-md-3">
-            <div class="card-columns">
-              <a href="/resale">
-                <div class="card bg-danger text-center" style="width:10em; ">
-                  <div class="zoom">
-                    <img class="card-img-top mx-auto d-block" src="/static/Images/BMW 7-series.png" style="width: 100%; "
-                      alt="Loan Model"></div>
-                  <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> BMW</div>
-                </div>
-              </a>
+          <div class="col-md-5">
+            <div class="card bg-danger text-center" style="width:10em; ">
+              <div class="zoom">
+                <img class="card-img-top mx-auto d-block" src="/static/Images/BMW 7-series.png" style="width: 100%; "
+                  alt=""></div>
+              <input type="button" class="btn btn-primary" id="btn" value="BMW 750i" onclick="update_model(this.value)">
             </div>
 
           </div> <!-- End 1st car column-->
 
           <!-- 2nd car column-->
-          <div class="col-md-3">
-            <div class="card-columns">
-              <a href="/resale">
-                <div class="card bg-danger text-center" style="width:10em; ">
-                  <div class="zoom">
-                    <img class="card-img-top mx-auto d-block" src="/static/Images/GMC_Sierra.jpg" style="width: 100%; "
-                      alt="Loan Card"></div>
-                  <div class="btn btn-primary mt-auto"><i class="fas fa-money-check-alt"></i> GMC Sierra</div>
-                </div>
-              </a>
+          <div class="col-md-5">
+
+            <div class="card bg-danger text-center" style="width:10em; ">
+              <div class="zoom">
+                <img class="card-img-top mx-auto d-block" src="/static/Images/GMC_Sierra.jpg" style="width: 100%; " alt="Loan Card"></div>
+              <input type="button" class="btn btn-primary" id="btn" value="GMC Sierra 15" onclick="update_model(this.value)">
+
             </div>
+
 
 
           </div>
           <!--2nd car column-->
+        </div>
+        <!-- End Row 4-->
 
-        </div> <!-- End Row 4-->
+
+        <div class="row" style="padding-bottom:10px;">
+
+          <div class="col-md-4">
+            <div class="card bg-danger highlight" style="width: 10rem; font-size: 12px; font-weight: bolder; ">
+              <div class="card-header" id='actualModel'>Model Name</div>
+              <div class="card-body" id="predModel"></div>
 
 
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-danger highlight" style="width: 10rem; font-size: 12px; font-weight: bold; ">
+              <div class="card-header" id='actualMpg'></div>
+              <div class="card-body" id="predMpg"></div>
 
-      </div> <!-- End second Highlight box-->
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-danger highlight" style="width: 10rem; font-size: 12px; font-weight: bold; ">
+              <div class="card-header" id='actualSmart'></div>
+              <div class="card-body" id="predSmart"></div>
+              <div id=""></div>
+
+            </div>
+
+          </div>
+          <!-- End second Highlight box-->
+        </div>
+      </div>
+
     </div>
-
-
     <!-- right side-->
     <!-- Row 1-->
-    <div class="row">
-      <div class="col-md-6">
+    <div class="row" style="padding-bottom:10px;">
+      <div class="col-md-12">
         <h3>View Machine Learning Models: </h3>
       </div>
     </div>
-    <!--End Row 1-->
-
-    <!-- Row 2-->
-    <div class="row">
+    <div class="row" style="padding-bottom:10px;">
       <!-- Predicion Resale-->
       <!-- Prediction Smartway-->
       <div class="col-md-2">
@@ -397,7 +399,10 @@
 
 
 
+
   </div>
+
+
   <!-- Footer -->
   <footer>
     <!-- Copyright -->
@@ -411,9 +416,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script type="text/javascript" src="../static/js/person_selection.js"></script>
+  <script>
+    var valModels = JSON.parse('{{ val_models | tojson | safe}}');
+  </script>
 
-
-
+  <script type="text/javascript" src="static/js/app.js"></script>
 
   <!-- End of the scripts -->
 </body>
