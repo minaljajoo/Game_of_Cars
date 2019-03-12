@@ -1,0 +1,159 @@
+"id","model","month","Year_2015","Year_2016","Year_2017","Year_2018","Year_2019"
+1,"Fiat 500","February",2333,1081,1131,416,207
+2,"Fiat 500","March",3276,1490,1671,439,0
+3,"Fiat 500","April",2498,1488,1201,335,0
+4,"Fiat 500","May",2614,1553,1240,264,0
+5,"Fiat 500","June",2283,1113,995,354,0
+6,"Fiat 500","July",1959,1097,1026,363,0
+7,"Fiat 500","August",2054,1243,937,563,0
+8,"Fiat 500","September",1926,1481,1016,529,0
+9,"Fiat 500","October",1286,1276,801,528,0
+10,"Fiat 500","November",968,1147,782,707,0
+11,"Fiat 500","December",1501,1411,667,418,0
+12,"BMW 7-series","February",572,616,623,615,851
+13,"BMW 7-series","March",732,850,935,823,0
+14,"BMW 7-series","April",1507,872,994,546,0
+15,"BMW 7-series","May",943,1012,524,1032,0
+16,"BMW 7-series","June",832,1408,634,742,0
+17,"BMW 7-series","July",916,1203,822,704,0
+18,"BMW 7-series","August",90,1230,550,597,0
+19,"BMW 7-series","September",134,1201,935,705,0
+20,"BMW 7-series","October",618,1133,819,559,0
+21,"BMW 7-series","November",1045,1233,788,603,0
+22,"BMW 7-series","December",1266,1313,1107,983,0
+23,"Make","Month",2015,2016,2017,2018,0
+24,"Chevrolet Colorado","February",6563,7394,7519,8050,0
+25,"Chevrolet Colorado","March",6621,9718,8426,12798,0
+26,"Chevrolet Colorado","April",7010,10362,9221,0,0
+27,"Chevrolet Colorado","May",8881,9196,9091,0,0
+28,"Chevrolet Colorado","June",6558,9049,9631,0,0
+29,"Chevrolet Colorado","July",7209,9195,11206,0,0
+30,"Chevrolet Colorado","August",7114,9242,10256,0,0
+31,"Chevrolet Colorado","September",7334,10383,11271,0,0
+32,"Chevrolet Colorado","October",7059,10578,9990,0,0
+33,"Chevrolet Colorado","November",6230,8669,10346,0,0
+34,"Chevrolet Colorado","December",7909,9431,9626,0,0
+35,"Make","Month",2015,2016,2017,2018,0
+36,"Chevrolet Silverado","February",45395,43136,50504,42282,0
+37,"Chevrolet Silverado","March",45193,47966,42410,52547,0
+38,"Chevrolet Silverado","April",45978,49990,40154,0,0
+39,"Chevrolet Silverado","May",51602,45035,43804,0,0
+40,"Chevrolet Silverado","June",51548,49662,50515,0,0
+41,"Chevrolet Silverado","July",56380,54116,45966,0,0
+42,"Chevrolet Silverado","August",54977,52408,54448,0,0
+43,"Chevrolet Silverado","September",53725,45380,55236,0,0
+44,"Chevrolet Silverado","October",51647,49768,53157,0,0
+45,"Chevrolet Silverado","November",45001,45280,46441,0,0
+46,"Chevrolet Silverado","December",62992,54272,67676,0,0
+47,"Make","Month",2015,2016,2017,2018,0
+48,"GMC Canyon","February",2513,2440,2978,2319,0
+49,"GMC Canyon","March",2434,2867,2490,2723,0
+50,"GMC Canyon","April",2432,3026,2368,0,0
+51,"GMC Canyon","May",2901,3361,2477,0,0
+52,"GMC Canyon","June",2532,3398,2516,0,0
+53,"GMC Canyon","July",2654,3532,2761,0,0
+54,"GMC Canyon","August",2423,3363,2698,0,0
+55,"GMC Canyon","September",2332,2949,2922,0,0
+56,"GMC Canyon","October",2415,2785,2860,0,0
+57,"GMC Canyon","November",2236,3410,2510,0,0
+58,"GMC Canyon","December",3000,4048,3467,0,0
+59,"Make","Month",2015,2016,2017,2018,0
+60,"GMC Sierra","February",15157,15202,17618,13162,0
+61,"GMC Sierra","March",17395,21548,18460,17082,0
+62,"GMC Sierra","April",18082,20531,17400,0,0
+63,"GMC Sierra","May",18977,17642,16200,0,0
+64,"GMC Sierra","June",18618,17162,15743,0,0
+65,"GMC Sierra","July",19808,22428,19963,0,0
+66,"GMC Sierra","August",21241,17478,17254,0,0
+67,"GMC Sierra","September",19754,18068,18106,0,0
+68,"GMC Sierra","October",18521,15050,18895,0,0
+69,"GMC Sierra","November",16527,18900,18136,0,0
+70,"GMC Sierra","December",27438,23290,26436,0,0
+71,"Honda Ridgeline","February",136,0,3265,2209,2186
+72,"Honda Ridgeline","March",77,0,3778,2690,0
+73,"Honda Ridgeline","April",43,1,3186,2459,0
+74,"Honda Ridgeline","May",26,0,2956,2894,0
+75,"Honda Ridgeline","June",7,2472,2730,2630,0
+76,"Honda Ridgeline","July",6,3518,2586,2488,0
+77,"Honda Ridgeline","August",4,3437,2610,2792,0
+78,"Honda Ridgeline","September",2,3318,2784,2536,0
+79,"Honda Ridgeline","October",0,3371,2709,2501,0
+80,"Honda Ridgeline","November",3,3464,2610,2420,0
+81,"Honda Ridgeline","December",2,4085,2854,2867,0
+82,"Jaguar XJ","February",243,356,234,191,109
+83,"Jaguar XJ","March",434,441,260,191,0
+84,"Jaguar XJ","April",278,285,304,100,0
+85,"Jaguar XJ","May",317,227,202,118,0
+86,"Jaguar XJ","June",309,284,209,113,0
+87,"Jaguar XJ","July",336,261,210,119,0
+88,"Jaguar XJ","August",371,306,223,78,0
+89,"Jaguar XJ","September",357,336,257,146,0
+90,"Jaguar XJ","October",305,335,178,78,0
+91,"Jaguar XJ","November",179,275,213,90,0
+92,"Jaguar XJ","December",207,436,263,124,0
+93,"Jeep Wrangler","February",12911,13234,13641,15936,15
+94,"Jeep Wrangler","March",17524,17710,16336,27829,0
+95,"Jeep Wrangler","April",18849,19003,18841,29776,0
+96,"Jeep Wrangler","May",22324,19551,19931,25102,0
+97,"Jeep Wrangler","June",19159,20060,18839,23110,0
+98,"Jeep Wrangler","July",19320,18741,18698,21308,0
+99,"Jeep Wrangler","August",18160,15290,16808,20168,0
+100,"Jeep Wrangler","September",17583,14255,15714,15983,0
+101,"Jeep Wrangler","October",15751,14469,13391,13318,0
+102,"Jeep Wrangler","November",13847,12957,13289,15963,0
+103,"Jeep Wrangler","December",15591,15721,13700,19800,0
+104,"Nissan Leaf","February",1198,930,1037,895,654
+105,"Nissan Leaf","March",1817,1246,1478,1500,0
+106,"Nissan Leaf","April",1553,787,1063,1171,0
+107,"Nissan Leaf","May",2104,979,1392,1576,0
+108,"Nissan Leaf","June",2074,1096,1506,1367,0
+109,"Nissan Leaf","July",1174,1063,1283,1149,0
+110,"Nissan Leaf","August",1393,1066,1154,1315,0
+111,"Nissan Leaf","September",1247,1316,1055,1563,0
+112,"Nissan Leaf","October",1238,1412,213,1234,0
+113,"Nissan Leaf","November",1054,1457,175,1128,0
+114,"Nissan Leaf","December",1347,1899,102,1667,0
+115,"Smart Fortwo Electric Drive","February",76,54,22,90,58
+116,"Smart Fortwo Electric Drive","March",103,70,13,103,0
+117,"Smart Fortwo Electric Drive","April",124,66,3,93,0
+118,"Smart Fortwo Electric Drive","May",102,75,1,110,0
+119,"Smart Fortwo Electric Drive","June",94,53,3,126,0
+120,"Smart Fortwo Electric Drive","July",109,62,0,103,0
+121,"Smart Fortwo Electric Drive","August",106,55,94,108,0
+122,"Smart Fortwo Electric Drive","September",94,44,123,98,0
+123,"Smart Fortwo Electric Drive","October",75,43,73,95,0
+124,"Smart Fortwo Electric Drive","November",178,47,68,100,0
+125,"Smart Fortwo Electric Drive","December",179,40,129,122,0
+126,"Toyota 4Runner","February",6420,8476,10912,10120,10
+127,"Toyota 4Runner","March",8648,9599,12045,11761,0
+128,"Toyota 4Runner","April",7432,10135,10428,9970,0
+129,"Toyota 4Runner","May",8549,10352,11014,11739,0
+130,"Toyota 4Runner","June",8208,8410,10423,11569,0
+131,"Toyota 4Runner","July",8383,9581,9874,12444,0
+132,"Toyota 4Runner","August",8811,10191,10358,12862,0
+133,"Toyota 4Runner","September",7506,9058,11333,12133,0
+134,"Toyota 4Runner","October",8596,8537,11153,12624,0
+135,"Toyota 4Runner","November",7583,8628,10103,11494,0
+136,"Toyota 4Runner","December",9953,11489,11954,13309,0
+137,"Toyota Tacoma","February",12372,14172,14256,16817,18533
+138,"Toyota Tacoma","March",15885,17687,16728,20250,0
+139,"Toyota Tacoma","April",15656,18106,17006,18811,0
+140,"Toyota Tacoma","May",17520,16544,17654,21380,0
+141,"Toyota Tacoma","June",15959,15809,16443,22296,0
+142,"Toyota Tacoma","July",17033,16580,17372,21844,0
+143,"Toyota Tacoma","August",16230,15373,17394,23534,0
+144,"Toyota Tacoma","September",11608,15723,18058,22265,0
+145,"Toyota Tacoma","October",15233,15875,15804,20534,0
+146,"Toyota Tacoma","November",13465,15531,16195,19685,0
+147,"Toyota Tacoma","December",17192,17514,18705,21531,0
+148,"Toyota Tundra","February",9052,8301,7234,7977,759
+149,"Toyota Tundra","March",11508,10002,9358,10697,0
+150,"Toyota Tundra","April",10681,10259,9912,9457,0
+151,"Toyota Tundra","May",11650,9739,10677,10062,0
+152,"Toyota Tundra","June",9926,9433,9843,9955,0
+153,"Toyota Tundra","July",10511,10474,10546,9478,0
+154,"Toyota Tundra","August",10057,9875,10320,11058,0
+155,"Toyota Tundra","September",8044,9507,11159,11454,0
+156,"Toyota Tundra","October",9514,9533,10022,9571,0
+157,"Toyota Tundra","November",8590,9578,9700,9689,0
+158,"Toyota Tundra","December",11150,11556,10886,11216,0

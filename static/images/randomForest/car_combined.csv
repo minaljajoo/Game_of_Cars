@@ -1,0 +1,511 @@
+,Resale-Cat,fuel_type,vehicle_class,displ,cyl,trans,drive,smog_rating,city_mpg,hwy_mpg,cmb_mpg,Greenhouse_gas_score,smartway,comb_CO2,Sales_2016,Sales_2017,Sales_2018
+0,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,6,21.0,29.0,24.0,5,No,371.0,12071,8731,7909
+1,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,6,21.0,29.0,24.0,5,No,371.0,12071,8731,7909
+2,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,2WD,5,17.0,25.0,20.0,4,No,436.0,12071,8731,7909
+3,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,2WD,6,17.0,25.0,20.0,4,No,436.0,12071,8731,7909
+4,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,4WD,5,16.0,25.0,19.0,4,No,459.0,12071,8731,7909
+5,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,4WD,6,16.0,25.0,19.0,4,No,459.0,12071,8731,7909
+6,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,27.0,22.0,5,No,397.0,103217,106583,20848
+7,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,27.0,22.0,5,No,397.0,103217,106583,20848
+8,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,25.0,21.0,5,No,426.0,103217,106583,20848
+9,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,25.0,21.0,5,No,426.0,103217,106583,20848
+10,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,406.0,103217,106583,20848
+11,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,406.0,103217,106583,20848
+12,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,5,22.0,31.0,25.0,5,No,406.0,103217,106583,20848
+13,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,6,22.0,31.0,25.0,5,No,406.0,103217,106583,20848
+14,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,5,20.0,29.0,23.0,4,No,445.0,103217,106583,20848
+15,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,20.0,29.0,23.0,4,No,445.0,103217,106583,20848
+16,High,Gasoline,pickup,3.6,6.0,Auto-6,2WD,6,18.0,26.0,21.0,5,No,427.0,103217,106583,20848
+17,High,Gasoline,pickup,3.6,6.0,Auto-6,2WD,6,18.0,26.0,21.0,5,No,427.0,103217,106583,20848
+18,High,Gasoline,special purpose,3.6,6.0,Auto-6,2WD,6,15.0,17.0,16.0,3,No,555.0,103217,106583,20848
+19,High,Gasoline,special purpose,3.6,6.0,Auto-6,2WD,6,15.0,17.0,16.0,3,No,555.0,103217,106583,20848
+20,High,Gasoline,pickup,3.6,6.0,Auto-6,4WD,6,17.0,24.0,20.0,4,No,450.0,103217,106583,20848
+21,High,Gasoline,pickup,3.6,6.0,Auto-6,4WD,6,17.0,24.0,20.0,4,No,450.0,103217,106583,20848
+22,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,6,15.0,20.0,17.0,4,No,453.0,537013,550311,94829
+23,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,6,15.0,20.0,17.0,4,No,453.0,537013,550311,94829
+24,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,6,14.5,18.5,16.0,4,No,479.5,537013,550311,94829
+25,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,6,14.5,18.5,16.0,4,No,479.5,537013,550311,94829
+26,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,5,14.0,20.0,16.5,4,No,470.5,537013,550311,94829
+27,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,6,14.0,20.0,16.5,4,No,470.5,537013,550311,94829
+28,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,5,16.0,23.0,19.0,4,No,480.0,537013,550311,94829
+29,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,5,15.0,20.0,17.0,3,No,523.0,537013,550311,94829
+30,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,6,16.0,23.0,19.0,4,No,480.0,537013,550311,94829
+31,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,6,15.0,20.0,17.0,3,No,523.0,537013,550311,94829
+32,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,5,13.5,18.0,15.0,4,No,524.5,537013,550311,94829
+33,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,6,13.5,18.0,15.0,4,No,524.5,537013,550311,94829
+34,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,5,16.0,22.0,18.0,4,No,494.0,537013,550311,94829
+35,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,5,15.0,19.0,17.0,3,No,523.0,537013,550311,94829
+36,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,6,16.0,22.0,18.0,4,No,494.0,537013,550311,94829
+37,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,6,15.0,19.0,17.0,3,No,523.0,537013,550311,94829
+38,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,18.0,24.0,20.0,4,No,446.0,537013,550311,94829
+39,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,18.0,24.0,20.0,4,No,446.0,537013,550311,94829
+40,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,16.0,22.0,18.0,4,No,493.0,537013,550311,94829
+41,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,16.0,22.0,18.0,4,No,493.0,537013,550311,94829
+42,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,16.0,21.0,18.0,4,No,489.0,537013,550311,94829
+43,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,16.0,21.0,18.0,4,No,489.0,537013,550311,94829
+44,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,15.0,21.0,17.0,3,No,523.0,537013,550311,94829
+45,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,15.0,21.0,17.0,3,No,523.0,537013,550311,94829
+46,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,6,15.0,21.0,17.0,3,No,527.0,537013,550311,94829
+47,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,6,15.0,21.0,17.0,3,No,527.0,537013,550311,94829
+48,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,6,15.0,21.0,17.0,3,No,521.0,537013,550311,94829
+49,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,6,15.0,21.0,17.0,3,No,521.0,537013,550311,94829
+50,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,5,24.0,32.0,27.0,6,No,322.0,14380,11467,4916
+51,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,24.0,32.0,27.0,6,No,322.0,14380,11467,4916
+52,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,5,27.0,34.0,30.0,7,No,295.0,14380,11467,4916
+53,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,27.0,34.0,30.0,7,Yes,295.0,14380,11467,4916
+54,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,5,28.0,34.0,30.0,7,No,295.0,14380,11467,4916
+55,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,28.0,34.0,30.0,7,Yes,295.0,14380,11467,4916
+56,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,5,31.0,40.0,34.0,8,Yes,259.0,14380,11467,4916
+57,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,31.0,40.0,34.0,8,Yes,259.0,14380,11467,4916
+58,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,5,24.0,32.0,27.0,6,No,322.0,14380,11467,4916
+59,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,24.0,32.0,27.0,6,No,322.0,14380,11467,4916
+60,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,5,28.0,34.0,30.0,7,No,295.0,14380,11467,4916
+61,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,28.0,34.0,30.0,7,Yes,295.0,14380,11467,4916
+62,Low,Gasoline,station wagon,1.4,4.0,Auto-6,2WD,5,22.0,30.0,25.0,6,No,351.0,14380,11467,4916
+63,Low,Gasoline,station wagon,1.4,4.0,Auto-6,2WD,6,22.0,30.0,25.0,6,No,351.0,14380,11467,4916
+64,Low,Gasoline,station wagon,1.4,4.0,Man-6,2WD,5,25.0,33.0,28.0,7,No,312.0,14380,11467,4916
+65,Low,Gasoline,station wagon,1.4,4.0,Man-6,2WD,6,25.0,33.0,28.0,7,Yes,312.0,14380,11467,4916
+66,Low,Gasoline,small SUV,1.4,4.0,Man-6,2WD,5,25.0,34.0,28.0,7,No,313.0,14380,11467,4916
+67,Low,Gasoline,small SUV,1.4,4.0,Man-6,2WD,6,25.0,34.0,28.0,7,Yes,313.0,14380,11467,4916
+68,Low,Gasoline,small SUV,2.4,4.0,Auto-9,2WD,6,22.0,31.0,25.0,6,No,350.0,14380,11467,4916
+69,Low,Gasoline,small SUV,2.4,4.0,Auto-9,2WD,6,22.0,31.0,25.0,6,No,350.0,14380,11467,4916
+70,Low,Gasoline,small SUV,2.4,4.0,Auto-9,4WD,6,21.0,30.0,24.0,5,No,361.0,14380,11467,4916
+71,Low,Gasoline,small SUV,2.4,4.0,Auto-9,4WD,6,21.0,30.0,24.0,5,No,361.0,14380,11467,4916
+72,Low,Electricity,small car,0,0,Auto-1,2WD,10,121.0,103.0,112.0,10,Elite,0.0,12071,8731,7909
+73,Low,Electricity,small car,0,0,Auto-1,2WD,10,121.0,103.0,112.0,10,Elite,0.0,12071,8731,7909
+74,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,27.0,22.0,5,No,397.0,35179,30047,5042
+75,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,27.0,22.0,5,No,397.0,35179,30047,5042
+76,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,25.0,21.0,5,No,426.0,35179,30047,5042
+77,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,25.0,21.0,5,No,426.0,35179,30047,5042
+78,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,406.0,35179,30047,5042
+79,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,406.0,35179,30047,5042
+80,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,5,22.0,31.0,25.0,5,No,406.0,35179,30047,5042
+81,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,6,22.0,31.0,25.0,5,No,406.0,35179,30047,5042
+82,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,5,20.0,29.0,23.0,4,No,445.0,35179,30047,5042
+83,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,20.0,29.0,23.0,4,No,445.0,35179,30047,5042
+84,High,Gasoline,pickup,3.6,6.0,Auto-6,2WD,6,18.0,26.0,21.0,5,No,427.0,35179,30047,5042
+85,High,Gasoline,pickup,3.6,6.0,Auto-6,2WD,6,18.0,26.0,21.0,5,No,427.0,35179,30047,5042
+86,High,Gasoline,special purpose,3.6,6.0,Auto-6,2WD,6,15.0,17.0,16.0,3,No,555.0,35179,30047,5042
+87,High,Gasoline,special purpose,3.6,6.0,Auto-6,2WD,6,15.0,17.0,16.0,3,No,555.0,35179,30047,5042
+88,High,Gasoline,pickup,3.6,6.0,Auto-6,4WD,6,17.0,24.0,20.0,4,No,450.0,35179,30047,5042
+89,High,Gasoline,pickup,3.6,6.0,Auto-6,4WD,6,17.0,24.0,20.0,4,No,450.0,35179,30047,5042
+90,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,6,15.0,20.0,17.0,4,No,453.0,207299,204211,30244
+91,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,6,15.0,20.0,17.0,4,No,453.0,207299,204211,30244
+92,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,6,14.5,18.5,16.0,4,No,480.0,207299,204211,30244
+93,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,6,14.5,18.5,16.0,4,No,480.0,207299,204211,30244
+94,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,5,14.0,20.0,16.5,4,No,470.5,207299,204211,30244
+95,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,6,14.0,20.0,16.5,4,No,470.5,207299,204211,30244
+96,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,5,16.0,23.0,19.0,4,No,479.0,207299,204211,30244
+97,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,5,15.0,20.0,17.0,3,No,523.0,207299,204211,30244
+98,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,6,16.0,23.0,19.0,4,No,479.0,207299,204211,30244
+99,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,6,15.0,20.0,17.0,3,No,523.0,207299,204211,30244
+100,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,5,13.5,18.0,15.0,4,No,524.5,207299,204211,30244
+101,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,6,13.5,18.0,15.0,4,No,524.5,207299,204211,30244
+102,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,5,16.0,22.0,18.0,4,No,495.0,207299,204211,30244
+103,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,5,15.0,19.0,17.0,3,No,523.0,207299,204211,30244
+104,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,6,16.0,22.0,18.0,4,No,495.0,207299,204211,30244
+105,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,6,15.0,19.0,17.0,3,No,523.0,207299,204211,30244
+106,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,18.0,24.0,20.0,4,No,446.0,207299,204211,30244
+107,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,18.0,24.0,20.0,4,No,446.0,207299,204211,30244
+108,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,16.0,22.0,18.0,4,No,493.0,207299,204211,30244
+109,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,16.0,22.0,18.0,4,No,493.0,207299,204211,30244
+110,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,16.0,21.0,18.0,4,No,489.0,207299,204211,30244
+111,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,16.0,21.0,18.0,4,No,489.0,207299,204211,30244
+112,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,15.0,21.0,17.0,3,No,523.0,207299,204211,30244
+113,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,15.0,21.0,17.0,3,No,523.0,207299,204211,30244
+114,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,6,15.0,21.0,17.0,3,No,522.0,207299,204211,30244
+115,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,6,15.0,21.0,17.0,3,No,522.0,207299,204211,30244
+116,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,6,15.0,21.0,17.0,3,No,521.0,207299,204211,30244
+117,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,6,15.0,21.0,17.0,3,No,521.0,207299,204211,30244
+118,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,7,18.0,27.0,21.0,5,No,414.0,3542,2553,1348
+119,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,9,18.0,27.0,21.0,5,No,414.0,3542,2553,1348
+120,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,7,17.0,26.0,20.0,4,No,443.0,3542,2553,1348
+121,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,9,17.0,26.0,20.0,4,No,443.0,3542,2553,1348
+122,Low,Gasoline,large car,5.0,8.0,SemiAuto-8,2WD,5,15.0,23.0,18.0,4,No,504.0,3542,2553,1348
+123,Low,Gasoline,large car,5.0,8.0,SemiAuto-8,2WD,6,15.0,23.0,18.0,4,No,504.0,3542,2553,1348
+124,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,17.0,21.0,18.0,4,No,482.0,180991,179188,228293
+125,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,17.0,21.0,18.0,4,No,482.0,180991,179188,228293
+126,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,17.0,21.0,18.0,4,No,481.0,180991,179188,228293
+127,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,17.0,21.0,18.0,4,No,481.0,180991,179188,228293
+128,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,16.0,20.0,18.0,4,No,505.0,180991,179188,228293
+129,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,16.0,20.0,18.0,4,No,505.0,180991,179188,228293
+130,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,16.0,21.0,18.0,4,No,503.0,180991,179188,228293
+131,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,16.0,21.0,18.0,4,No,503.0,180991,179188,228293
+132,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,126.0,101.0,114.0,10,Elite,0.0,13251,10458,14565
+133,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,126.0,101.0,114.0,10,Elite,0.0,13251,10458,14565
+134,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,124.0,101.0,112.0,10,Elite,0.0,13251,10458,14565
+135,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,124.0,101.0,112.0,10,Elite,0.0,13251,10458,14565
+136,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,2WD,5,17.0,22.0,19.0,4,No,466.0,104456,119597,130025
+137,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,2WD,6,17.0,22.0,19.0,4,No,466.0,104456,119597,130025
+138,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,4WD,5,17.0,21.0,18.0,4,No,478.0,104456,119597,130025
+139,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,4WD,6,17.0,21.0,18.0,4,No,478.0,104456,119597,130025
+140,High,Gasoline,pickup,2.7,4.0,Man-5,4WD,5,19.0,21.0,20.0,4,No,449.0,178914,185615,228947
+141,High,Gasoline,pickup,2.7,4.0,Man-5,4WD,7,19.0,21.0,20.0,4,No,449.0,178914,185615,228947
+142,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,2WD,5,19.0,23.0,21.0,5,No,424.0,178914,185615,228947
+143,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,2WD,7,19.0,23.0,21.0,5,No,424.0,178914,185615,228947
+144,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,4WD,5,19.0,22.0,20.0,4,No,441.0,178914,185615,228947
+145,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,4WD,7,19.0,22.0,20.0,4,No,441.0,178914,185615,228947
+146,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,5,17.0,20.0,18.0,4,No,483.0,178914,185615,228947
+147,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,5,17.0,21.0,19.0,4,No,471.0,178914,185615,228947
+148,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,7,17.0,20.0,18.0,4,No,483.0,178914,185615,228947
+149,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,7,17.0,21.0,19.0,4,No,471.0,178914,185615,228947
+150,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,2WD,5,19.0,24.0,21.0,5,No,430.0,178914,185615,228947
+151,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,2WD,7,19.0,24.0,21.0,5,No,430.0,178914,185615,228947
+152,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,4WD,5,18.0,23.0,20.0,4,No,444.0,178914,185615,228947
+153,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,4WD,7,18.0,23.0,20.0,4,No,444.0,178914,185615,228947
+154,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,2WD,5,15.0,19.0,16.0,3,No,537.0,108257,109657,110614
+155,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,2WD,6,15.0,19.0,16.0,3,No,537.0,108257,109657,110614
+156,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,4WD,5,14.0,18.0,16.0,3,No,570.0,108257,109657,110614
+157,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,4WD,6,14.0,18.0,16.0,3,No,570.0,108257,109657,110614
+158,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,2WD,5,13.0,18.0,15.0,2,No,601.0,108257,109657,110614
+159,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,2WD,6,13.0,18.0,15.0,2,No,601.0,108257,109657,110614
+160,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,4WD,5,13.0,17.0,15.0,2,No,608.0,108257,109657,110614
+161,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,4WD,6,13.0,17.0,15.0,2,No,608.0,108257,109657,110614
+162,Low,Gasoline/Electricity,large car,2.0,4.0,SemiAuto-8,4WD,6,43.5,48.5,45.5,9,Yes,214.0,12071,8731,7909
+163,Low,Gasoline/Electricity,large car,2.0,4.0,SemiAuto-8,4WD,6,43.5,48.5,45.5,9,Yes,214.0,12071,8731,7909
+164,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,6,21.0,29.0,24.0,5,No,372.0,12071,8731,7909
+165,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,6,21.0,29.0,24.0,5,No,372.0,12071,8731,7909
+166,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,6,19.0,28.0,22.0,5,No,397.0,12071,8731,7909
+167,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,6,19.0,28.0,22.0,5,No,397.0,12071,8731,7909
+168,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,2WD,6,17.0,26.0,20.0,4,No,441.0,12071,8731,7909
+169,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,2WD,6,17.0,26.0,20.0,4,No,441.0,12071,8731,7909
+170,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,4WD,6,16.0,25.0,19.0,4,No,459.0,12071,8731,7909
+171,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,4WD,6,16.0,25.0,19.0,4,No,459.0,12071,8731,7909
+172,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,26.0,22.0,5,No,405.0,103217,106583,20848
+173,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,26.0,22.0,5,No,405.0,103217,106583,20848
+174,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,24.0,21.0,4,No,423.0,103217,106583,20848
+175,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,24.0,21.0,4,No,423.0,103217,106583,20848
+176,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,408.0,103217,106583,20848
+177,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,408.0,103217,106583,20848
+178,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,6,22.0,30.0,25.0,5,No,411.0,103217,106583,20848
+179,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,6,22.0,30.0,25.0,5,No,411.0,103217,106583,20848
+180,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,20.0,28.0,23.0,4,No,449.0,103217,106583,20848
+181,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,20.0,28.0,23.0,4,No,449.0,103217,106583,20848
+182,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,7,18.0,25.0,20.0,4,No,440.0,103217,106583,20848
+183,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,7,18.0,25.0,20.0,4,No,440.0,103217,106583,20848
+184,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,7,15.0,15.0,15.0,2,No,589.0,103217,106583,20848
+185,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,7,15.0,15.0,15.0,2,No,589.0,103217,106583,20848
+186,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,7,17.0,24.0,19.0,4,No,461.0,103217,106583,20848
+187,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,7,17.0,24.0,19.0,4,No,461.0,103217,106583,20848
+188,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,19.0,22.0,20.0,3,No,506.0,103217,106583,20848
+189,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,19.0,22.0,20.0,3,No,506.0,103217,106583,20848
+190,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,7,16.0,18.0,17.0,3,No,532.0,103217,106583,20848
+191,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,7,16.0,18.0,17.0,3,No,532.0,103217,106583,20848
+192,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,7,15.0,20.0,17.0,4,No,452.0,537013,550311,94829
+193,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,7,15.0,20.0,17.0,4,No,452.0,537013,550311,94829
+194,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,7,14.5,18.5,16.0,4,No,480.0,537013,550311,94829
+195,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,7,14.5,18.5,16.0,4,No,480.0,537013,550311,94829
+196,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,5,14.0,20.0,16.5,4,No,466.0,537013,550311,94829
+197,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,6,14.0,20.0,16.5,4,No,466.0,537013,550311,94829
+198,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,5,16.0,23.0,19.0,4,No,479.0,537013,550311,94829
+199,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,5,15.0,20.0,17.0,3,No,523.0,537013,550311,94829
+200,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,6,16.0,23.0,19.0,4,No,479.0,537013,550311,94829
+201,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,6,15.0,20.0,17.0,3,No,523.0,537013,550311,94829
+202,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,5,13.5,19.0,15.5,3,No,509.0,537013,550311,94829
+203,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,6,13.5,19.0,15.5,3,No,509.0,537013,550311,94829
+204,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,5,16.0,22.0,18.0,3,No,495.0,537013,550311,94829
+205,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,5,15.0,19.0,17.0,3,No,523.0,537013,550311,94829
+206,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,6,16.0,22.0,18.0,3,No,495.0,537013,550311,94829
+207,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,6,15.0,19.0,17.0,3,No,523.0,537013,550311,94829
+208,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,18.0,24.0,20.0,4,No,447.0,537013,550311,94829
+209,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,18.0,24.0,20.0,4,No,447.0,537013,550311,94829
+210,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,16.0,22.0,18.0,3,No,497.0,537013,550311,94829
+211,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,16.0,22.0,18.0,3,No,497.0,537013,550311,94829
+212,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,16.0,21.0,18.0,3,No,488.0,537013,550311,94829
+213,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,16.0,21.0,18.0,3,No,488.0,537013,550311,94829
+214,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,15.0,20.0,17.0,3,No,533.0,537013,550311,94829
+215,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,15.0,20.0,17.0,3,No,533.0,537013,550311,94829
+216,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,5,15.0,21.0,17.0,3,No,522.0,537013,550311,94829
+217,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,6,15.0,21.0,17.0,3,No,522.0,537013,550311,94829
+218,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,5,15.0,20.0,17.0,3,No,531.0,537013,550311,94829
+219,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,6,15.0,20.0,17.0,3,No,531.0,537013,550311,94829
+220,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+221,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+222,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,27.0,33.0,29.0,7,Yes,300.0,14380,11467,4916
+223,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,27.0,33.0,29.0,7,Yes,300.0,14380,11467,4916
+224,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,28.0,33.0,30.0,7,Yes,299.0,14380,11467,4916
+225,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,28.0,33.0,30.0,7,Yes,299.0,14380,11467,4916
+226,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,31.0,38.0,34.0,8,Yes,264.0,14380,11467,4916
+227,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,31.0,38.0,34.0,8,Yes,264.0,14380,11467,4916
+228,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+229,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,6,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+230,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,28.0,33.0,30.0,7,Yes,299.0,14380,11467,4916
+231,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,6,28.0,33.0,30.0,7,Yes,299.0,14380,11467,4916
+232,Low,Gasoline,station wagon,1.4,4.0,Auto-6,2WD,6,22.0,30.0,25.0,5,No,356.0,14380,11467,4916
+233,Low,Gasoline,station wagon,1.4,4.0,Auto-6,2WD,6,22.0,30.0,25.0,5,No,356.0,14380,11467,4916
+234,Low,Gasoline,small SUV,1.4,4.0,Man-6,2WD,6,25.0,33.0,28.0,6,No,317.0,14380,11467,4916
+235,Low,Gasoline,small SUV,1.4,4.0,Man-6,2WD,6,25.0,33.0,28.0,6,No,317.0,14380,11467,4916
+236,Low,Gasoline,small SUV,2.4,4.0,Auto-9,2WD,6,22.0,30.0,25.0,5,No,353.0,14380,11467,4916
+237,Low,Gasoline,small SUV,2.4,4.0,Auto-9,2WD,6,22.0,30.0,25.0,5,No,353.0,14380,11467,4916
+238,Low,Gasoline,small SUV,2.4,4.0,Auto-9,4WD,6,21.0,29.0,24.0,5,No,364.0,14380,11467,4916
+239,Low,Gasoline,small SUV,2.4,4.0,Auto-9,4WD,6,21.0,29.0,24.0,5,No,364.0,14380,11467,4916
+240,Low,Electricity,small car,0,0,Auto-1,2WD,10,121.0,103.0,112.0,10,Elite,0.0,12071,8731,7909
+241,Low,Electricity,small car,0,0,Auto-1,2WD,10,121.0,103.0,112.0,10,Elite,0.0,12071,8731,7909
+242,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,26.0,22.0,5,No,405.0,35179,30047,5042
+243,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,6,20.0,26.0,22.0,5,No,405.0,35179,30047,5042
+244,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,24.0,21.0,4,No,423.0,35179,30047,5042
+245,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,6,19.0,24.0,21.0,4,No,423.0,35179,30047,5042
+246,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,408.0,35179,30047,5042
+247,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,6,19.0,26.0,22.0,5,No,408.0,35179,30047,5042
+248,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,6,22.0,30.0,25.0,5,No,411.0,35179,30047,5042
+249,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,6,22.0,30.0,25.0,5,No,411.0,35179,30047,5042
+250,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,20.0,28.0,23.0,4,No,449.0,35179,30047,5042
+251,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,6,20.0,28.0,23.0,4,No,449.0,35179,30047,5042
+252,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,7,18.0,25.0,20.0,4,No,440.0,35179,30047,5042
+253,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,7,18.0,25.0,20.0,4,No,440.0,35179,30047,5042
+254,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,7,15.0,15.0,15.0,2,No,589.0,35179,30047,5042
+255,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,7,15.0,15.0,15.0,2,No,589.0,35179,30047,5042
+256,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,7,17.0,24.0,19.0,4,No,461.0,35179,30047,5042
+257,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,7,17.0,24.0,19.0,4,No,461.0,35179,30047,5042
+258,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,7,15.0,20.0,17.0,4,No,452.5,207299,204211,30244
+259,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,7,15.0,20.0,17.0,4,No,452.5,207299,204211,30244
+260,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,7,14.5,18.5,16.0,4,No,473.5,207299,204211,30244
+261,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,7,14.5,18.5,16.0,4,No,473.5,207299,204211,30244
+262,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,5,14.0,20.0,16.5,4,No,466.0,207299,204211,30244
+263,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,6,14.0,20.0,16.5,4,No,466.0,207299,204211,30244
+264,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,5,16.0,23.0,19.0,4,No,479.0,207299,204211,30244
+265,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,5,15.0,20.0,17.0,3,No,523.0,207299,204211,30244
+266,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,6,16.0,23.0,19.0,4,No,479.0,207299,204211,30244
+267,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,6,15.0,20.0,17.0,3,No,523.0,207299,204211,30244
+268,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,5,13.5,19.0,15.5,3,No,508.0,207299,204211,30244
+269,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,6,13.5,19.0,15.5,3,No,508.0,207299,204211,30244
+270,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,5,16.0,22.0,18.0,3,No,494.0,207299,204211,30244
+271,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,5,15.0,19.0,17.0,3,No,523.0,207299,204211,30244
+272,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,6,16.0,22.0,18.0,3,No,494.0,207299,204211,30244
+273,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,6,15.0,19.0,17.0,3,No,523.0,207299,204211,30244
+274,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,18.0,24.0,20.0,4,No,447.0,207299,204211,30244
+275,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,18.0,24.0,20.0,4,No,447.0,207299,204211,30244
+276,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,5,16.0,22.0,18.0,3,No,497.0,207299,204211,30244
+277,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,6,16.0,22.0,18.0,3,No,497.0,207299,204211,30244
+278,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,16.0,21.0,18.0,3,No,488.0,207299,204211,30244
+279,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,16.0,21.0,18.0,3,No,488.0,207299,204211,30244
+280,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,5,15.0,20.0,17.0,3,No,533.0,207299,204211,30244
+281,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,6,15.0,20.0,17.0,3,No,533.0,207299,204211,30244
+282,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,5,15.0,21.0,17.0,3,No,523.0,207299,204211,30244
+283,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,6,15.0,21.0,17.0,3,No,523.0,207299,204211,30244
+284,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,5,15.0,20.0,17.0,3,No,531.0,207299,204211,30244
+285,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,6,15.0,20.0,17.0,3,No,531.0,207299,204211,30244
+286,High,Gasoline,pickup,3.5,6.0,Auto-6,2WD,6,19.0,26.0,22.0,5,No,410.0,23666,32068,28486
+287,High,Gasoline,pickup,3.5,6.0,Auto-6,2WD,6,19.0,26.0,22.0,5,No,410.0,23666,32068,28486
+288,High,Gasoline,pickup,3.5,6.0,Auto-6,4WD,6,18.0,25.0,21.0,4,No,424.0,23666,32068,28486
+289,High,Gasoline,pickup,3.5,6.0,Auto-6,4WD,6,18.0,25.0,21.0,4,No,424.0,23666,32068,28486
+290,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,9,18.0,27.0,21.0,4,No,416.0,3542,2553,1348
+291,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,8,18.0,27.0,21.0,4,No,416.0,3542,2553,1348
+292,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,9,17.0,26.0,20.0,4,No,444.0,3542,2553,1348
+293,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,8,17.0,26.0,20.0,4,No,444.0,3542,2553,1348
+294,Low,Gasoline,large car,5.0,8.0,SemiAuto-8,2WD,6,15.0,23.0,18.0,3,No,503.0,3542,2553,1348
+295,Low,Gasoline,large car,5.0,8.0,SemiAuto-8,2WD,6,15.0,23.0,18.0,3,No,503.0,3542,2553,1348
+296,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,17.0,21.0,18.0,3,No,481.0,180991,179188,228293
+297,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,17.0,21.0,18.0,3,No,481.0,180991,179188,228293
+298,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,17.0,21.0,18.0,3,No,480.0,180991,179188,228293
+299,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,17.0,21.0,18.0,3,No,480.0,180991,179188,228293
+300,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,16.0,20.0,18.0,3,No,504.0,180991,179188,228293
+301,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,6,16.0,20.0,18.0,3,No,504.0,180991,179188,228293
+302,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,16.0,21.0,18.0,3,No,502.0,180991,179188,228293
+303,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,6,16.0,21.0,18.0,3,No,502.0,180991,179188,228293
+304,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,124.0,101.0,112.0,10,Elite,0.0,13251,10458,14565
+305,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,124.0,101.0,112.0,10,Elite,0.0,13251,10458,14565
+306,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,2WD,6,17.0,21.0,18.0,3,No,479.0,104456,119597,130025
+307,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,2WD,6,17.0,21.0,18.0,3,No,479.0,104456,119597,130025
+308,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,4WD,6,17.0,20.0,18.0,3,No,491.0,104456,119597,130025
+309,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,4WD,6,17.0,20.0,18.0,3,No,491.0,104456,119597,130025
+310,High,Gasoline,pickup,2.7,4.0,Man-5,4WD,7,19.0,21.0,20.0,4,No,448.0,178914,185615,228947
+311,High,Gasoline,pickup,2.7,4.0,Man-5,4WD,7,19.0,21.0,20.0,4,No,448.0,178914,185615,228947
+312,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,2WD,7,19.0,23.0,21.0,4,No,427.0,178914,185615,228947
+313,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,2WD,7,19.0,23.0,21.0,4,No,427.0,178914,185615,228947
+314,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,4WD,7,19.0,22.0,20.0,4,No,441.0,178914,185615,228947
+315,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,4WD,7,19.0,22.0,20.0,4,No,441.0,178914,185615,228947
+316,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,7,17.0,20.0,18.0,3,No,483.0,178914,185615,228947
+317,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,7,17.0,21.0,18.0,3,No,481.0,178914,185615,228947
+318,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,7,17.0,20.0,18.0,3,No,483.0,178914,185615,228947
+319,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,7,17.0,21.0,18.0,3,No,481.0,178914,185615,228947
+320,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,2WD,7,19.0,24.0,21.0,4,No,431.0,178914,185615,228947
+321,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,2WD,7,19.0,24.0,21.0,4,No,431.0,178914,185615,228947
+322,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,4WD,7,18.0,23.0,20.0,4,No,446.0,178914,185615,228947
+323,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,4WD,7,18.0,23.0,20.0,4,No,446.0,178914,185615,228947
+324,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,2WD,5,15.0,19.0,16.0,2,No,554.0,108257,109657,110614
+325,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,2WD,6,15.0,19.0,16.0,2,No,554.0,108257,109657,110614
+326,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,4WD,5,14.0,18.0,16.0,2,No,568.0,108257,109657,110614
+327,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,4WD,6,14.0,18.0,16.0,2,No,568.0,108257,109657,110614
+328,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,2WD,5,13.0,18.0,15.0,2,No,592.0,108257,109657,110614
+329,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,2WD,6,13.0,18.0,15.0,2,No,592.0,108257,109657,110614
+330,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,4WD,5,13.0,17.0,15.0,2,No,606.0,108257,109657,110614
+331,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,4WD,6,13.0,17.0,15.0,2,No,606.0,108257,109657,110614
+332,Low,Gasoline/Electricity,large car,2.0,4.0,SemiAuto-8,4WD,3,43.5,48.5,45.5,9,Yes,214.0,12071,8731,7909
+333,Low,Gasoline/Electricity,large car,2.0,4.0,SemiAuto-8,4WD,3,43.5,48.5,45.5,9,Yes,214.0,12071,8731,7909
+334,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,3,21.0,29.0,24.0,5,No,372.0,12071,8731,7909
+335,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,3,21.0,29.0,24.0,5,No,372.0,12071,8731,7909
+336,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,3,20.0,29.0,23.0,5,No,382.0,12071,8731,7909
+337,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,3,20.0,29.0,23.0,5,No,382.0,12071,8731,7909
+338,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,2WD,3,17.0,25.0,20.0,4,No,449.0,12071,8731,7909
+339,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,2WD,3,17.0,25.0,20.0,4,No,449.0,12071,8731,7909
+340,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,4WD,3,16.0,25.0,19.0,3,No,463.0,12071,8731,7909
+341,Low,Gasoline,large car,4.4,8.0,SemiAuto-8,4WD,3,16.0,25.0,19.0,3,No,463.0,12071,8731,7909
+342,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,5,20.0,26.0,22.0,4,No,406.0,103217,106583,20848
+343,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,5,20.0,26.0,22.0,4,No,406.0,103217,106583,20848
+344,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,5,19.0,24.0,21.0,4,No,429.0,103217,106583,20848
+345,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,5,19.0,24.0,21.0,4,No,429.0,103217,106583,20848
+346,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,5,20.0,26.0,22.0,4,No,403.0,103217,106583,20848
+347,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,5,20.0,26.0,22.0,4,No,403.0,103217,106583,20848
+348,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,3,22.0,30.0,25.0,4,No,413.0,103217,106583,20848
+349,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,3,22.0,30.0,25.0,4,No,413.0,103217,106583,20848
+350,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,3,20.0,28.0,23.0,4,No,450.0,103217,106583,20848
+351,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,3,20.0,28.0,23.0,4,No,450.0,103217,106583,20848
+352,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,5,18.0,25.0,20.0,4,No,440.0,103217,106583,20848
+353,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,5,18.0,25.0,20.0,4,No,440.0,103217,106583,20848
+354,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,5,15.0,15.0,15.0,2,No,589.0,103217,106583,20848
+355,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,5,15.0,15.0,15.0,2,No,589.0,103217,106583,20848
+356,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,5,17.0,24.0,19.0,3,No,463.0,103217,106583,20848
+357,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,5,17.0,24.0,19.0,3,No,463.0,103217,106583,20848
+358,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,3,19.0,22.0,20.0,3,No,506.0,103217,106583,20848
+359,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,3,19.0,22.0,20.0,3,No,506.0,103217,106583,20848
+360,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,5,16.0,18.0,17.0,3,No,532.0,103217,106583,20848
+361,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,5,16.0,18.0,17.0,3,No,532.0,103217,106583,20848
+362,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,5,15.0,20.0,17.0,4,No,452.5,537013,550311,94829
+363,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,5,15.0,20.0,17.0,4,No,452.5,537013,550311,94829
+364,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,5,14.5,18.5,16.0,3,No,474.5,537013,550311,94829
+365,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,5,14.5,18.5,16.0,3,No,474.5,537013,550311,94829
+366,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,3,14.0,20.0,16.5,3,No,465.0,537013,550311,94829
+367,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,3,14.0,20.0,16.5,3,No,465.0,537013,550311,94829
+368,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,3,16.0,23.0,19.0,3,No,476.0,537013,550311,94829
+369,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,3,15.0,20.0,17.0,3,No,523.0,537013,550311,94829
+370,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,3,16.0,23.0,19.0,3,No,476.0,537013,550311,94829
+371,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,3,15.0,20.0,17.0,3,No,523.0,537013,550311,94829
+372,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,3,13.5,19.0,15.5,3,No,489.0,537013,550311,94829
+373,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,3,13.5,19.0,15.5,3,No,489.0,537013,550311,94829
+374,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,3,16.0,22.0,18.0,3,No,491.0,537013,550311,94829
+375,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,3,15.0,19.0,17.0,3,No,523.0,537013,550311,94829
+376,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,3,16.0,22.0,18.0,3,No,491.0,537013,550311,94829
+377,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,3,15.0,19.0,17.0,3,No,523.0,537013,550311,94829
+378,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,18.0,24.0,20.0,4,No,447.0,537013,550311,94829
+379,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,18.0,24.0,20.0,4,No,447.0,537013,550311,94829
+380,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,16.0,22.0,18.0,3,No,495.0,537013,550311,94829
+381,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,16.0,22.0,18.0,3,No,495.0,537013,550311,94829
+382,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,16.0,21.0,18.0,3,No,490.0,537013,550311,94829
+383,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,16.0,21.0,18.0,3,No,490.0,537013,550311,94829
+384,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,522.0,537013,550311,94829
+385,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,522.0,537013,550311,94829
+386,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,3,15.0,21.0,17.0,3,No,522.0,537013,550311,94829
+387,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,3,15.0,21.0,17.0,3,No,522.0,537013,550311,94829
+388,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,524.0,537013,550311,94829
+389,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,524.0,537013,550311,94829
+390,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,3,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+391,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,3,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+392,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,3,28.0,33.0,30.0,7,Yes,292.0,14380,11467,4916
+393,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,3,28.0,33.0,30.0,7,Yes,292.0,14380,11467,4916
+394,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,3,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+395,Low,Gasoline,small car,1.4,4.0,Auto-6,2WD,3,24.0,32.0,27.0,6,No,326.0,14380,11467,4916
+396,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,3,28.0,33.0,30.0,7,Yes,292.0,14380,11467,4916
+397,Low,Gasoline,small car,1.4,4.0,Man-5,2WD,3,28.0,33.0,30.0,7,Yes,292.0,14380,11467,4916
+398,Low,Gasoline,station wagon,1.4,4.0,Auto-6,2WD,3,22.0,30.0,25.0,5,No,356.0,14380,11467,4916
+399,Low,Gasoline,station wagon,1.4,4.0,Auto-6,2WD,3,22.0,30.0,25.0,5,No,356.0,14380,11467,4916
+400,Low,Gasoline,small SUV,1.4,4.0,Man-6,2WD,3,25.0,33.0,28.0,6,No,317.0,14380,11467,4916
+401,Low,Gasoline,small SUV,1.4,4.0,Man-6,2WD,3,25.0,33.0,28.0,6,No,317.0,14380,11467,4916
+402,Low,Gasoline,small SUV,2.4,4.0,Auto-9,2WD,7,22.0,30.0,25.0,5,No,354.0,14380,11467,4916
+403,Low,Gasoline,small SUV,2.4,4.0,Auto-9,2WD,7,22.0,30.0,25.0,5,No,354.0,14380,11467,4916
+404,Low,Gasoline,small SUV,2.4,4.0,Auto-9,4WD,7,21.0,29.0,24.0,5,No,364.0,14380,11467,4916
+405,Low,Gasoline,small SUV,2.4,4.0,Auto-9,4WD,7,21.0,29.0,24.0,5,No,364.0,14380,11467,4916
+406,Low,Electricity,small car,0,0,Auto-1,2WD,10,121.0,103.0,112.0,10,Elite,0.0,12071,8731,7909
+407,Low,Electricity,small car,0,0,Auto-1,2WD,10,121.0,103.0,112.0,10,Elite,0.0,12071,8731,7909
+408,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,5,20.0,26.0,22.0,4,No,406.0,35179,30047,5042
+409,High,Gasoline,pickup,2.5,4.0,Auto-6,2WD,5,20.0,26.0,22.0,4,No,406.0,35179,30047,5042
+410,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,5,19.0,24.0,21.0,4,No,429.0,35179,30047,5042
+411,High,Gasoline,pickup,2.5,4.0,Auto-6,4WD,5,19.0,24.0,21.0,4,No,429.0,35179,30047,5042
+412,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,5,20.0,26.0,22.0,4,No,403.0,35179,30047,5042
+413,High,Gasoline,pickup,2.5,4.0,Man-6,2WD,5,20.0,26.0,22.0,4,No,403.0,35179,30047,5042
+414,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,3,22.0,30.0,25.0,4,No,413.0,35179,30047,5042
+415,High,Diesel,pickup,2.8,4.0,Auto-6,2WD,3,22.0,30.0,25.0,4,No,413.0,35179,30047,5042
+416,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,3,20.0,28.0,23.0,4,No,450.0,35179,30047,5042
+417,High,Diesel,pickup,2.8,4.0,Auto-6,4WD,3,20.0,28.0,23.0,4,No,450.0,35179,30047,5042
+418,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,5,18.0,25.0,20.0,4,No,440.0,35179,30047,5042
+419,High,Gasoline,pickup,3.6,6.0,Auto-8,2WD,5,18.0,25.0,20.0,4,No,440.0,35179,30047,5042
+420,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,5,15.0,15.0,15.0,2,No,589.0,35179,30047,5042
+421,High,Gasoline,special purpose,3.6,6.0,Auto-8,2WD,5,15.0,15.0,15.0,2,No,589.0,35179,30047,5042
+422,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,5,17.0,24.0,19.0,3,No,463.0,35179,30047,5042
+423,High,Gasoline,pickup,3.6,6.0,Auto-8,4WD,5,17.0,24.0,19.0,3,No,463.0,35179,30047,5042
+424,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,5,15.0,20.0,17.0,4,No,452.5,207299,204211,30244
+425,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,2WD,5,15.0,20.0,17.0,4,No,452.5,207299,204211,30244
+426,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,5,14.5,18.5,16.0,3,No,475.5,207299,204211,30244
+427,High,Ethanol/Gas,pickup,4.3,6.0,Auto-6,4WD,5,14.5,18.5,16.0,3,No,475.5,207299,204211,30244
+428,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,3,14.0,20.0,16.5,3,No,465.5,207299,204211,30244
+429,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,2WD,3,14.0,20.0,16.5,3,No,465.5,207299,204211,30244
+430,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,3,16.0,23.0,19.0,3,No,475.0,207299,204211,30244
+431,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,3,15.0,20.0,17.0,3,No,523.0,207299,204211,30244
+432,High,Gasoline,pickup,5.3,8.0,Auto-6,2WD,3,16.0,23.0,19.0,3,No,475.0,207299,204211,30244
+433,High,Gasoline,special purpose,5.3,8.0,Auto-6,2WD,3,15.0,20.0,17.0,3,No,523.0,207299,204211,30244
+434,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,3,13.5,19.0,15.5,3,No,489.0,207299,204211,30244
+435,High,Ethanol/Gas,pickup,5.3,8.0,Auto-6,4WD,3,13.5,19.0,15.5,3,No,489.0,207299,204211,30244
+436,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,3,16.0,22.0,18.0,3,No,489.0,207299,204211,30244
+437,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,3,15.0,19.0,17.0,3,No,523.0,207299,204211,30244
+438,High,Gasoline,pickup,5.3,8.0,Auto-6,4WD,3,16.0,22.0,18.0,3,No,489.0,207299,204211,30244
+439,High,Gasoline,special purpose,5.3,8.0,Auto-6,4WD,3,15.0,19.0,17.0,3,No,523.0,207299,204211,30244
+440,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,18.0,24.0,20.0,4,No,447.0,207299,204211,30244
+441,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,18.0,24.0,20.0,4,No,447.0,207299,204211,30244
+442,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,16.0,22.0,18.0,3,No,495.0,207299,204211,30244
+443,High,Gasoline,pickup,5.3,8.0,Auto-8,2WD,3,16.0,22.0,18.0,3,No,495.0,207299,204211,30244
+444,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,16.0,21.0,18.0,3,No,490.0,207299,204211,30244
+445,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,16.0,21.0,18.0,3,No,490.0,207299,204211,30244
+446,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,522.0,207299,204211,30244
+447,High,Gasoline,pickup,5.3,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,522.0,207299,204211,30244
+448,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,3,15.0,21.0,17.0,3,No,517.0,207299,204211,30244
+449,High,Gasoline,pickup,6.2,8.0,Auto-8,2WD,3,15.0,21.0,17.0,3,No,517.0,207299,204211,30244
+450,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,524.0,207299,204211,30244
+451,High,Gasoline,pickup,6.2,8.0,Auto-8,4WD,3,15.0,20.0,17.0,3,No,524.0,207299,204211,30244
+452,High,Gasoline,pickup,3.5,6.0,Auto-6,2WD,3,19.0,26.0,22.0,4,No,410.0,23666,32068,28486
+453,High,Gasoline,pickup,3.5,6.0,Auto-6,2WD,3,19.0,26.0,22.0,4,No,410.0,23666,32068,28486
+454,High,Gasoline,pickup,3.5,6.0,Auto-6,4WD,3,18.0,25.0,21.0,4,No,424.0,23666,32068,28486
+455,High,Gasoline,pickup,3.5,6.0,Auto-6,4WD,3,18.0,25.0,21.0,4,No,424.0,23666,32068,28486
+456,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,7,18.0,27.0,21.0,4,No,416.0,3542,2553,1348
+457,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,2WD,7,18.0,27.0,21.0,4,No,416.0,3542,2553,1348
+458,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,7,17.0,26.0,20.0,4,No,444.0,3542,2553,1348
+459,Low,Gasoline,large car,3.0,6.0,SemiAuto-8,4WD,7,17.0,26.0,20.0,4,No,444.0,3542,2553,1348
+460,Low,Gasoline,large car,5.0,8.0,SemiAuto-8,2WD,3,15.0,23.0,18.0,3,No,503.0,3542,2553,1348
+461,Low,Gasoline,large car,5.0,8.0,SemiAuto-8,2WD,3,15.0,23.0,18.0,3,No,503.0,3542,2553,1348
+462,High,Gasoline,small SUV,2.0,4.0,Auto-8,4WD,5,23.0,25.0,24.0,5,No,375.0,180991,179188,228293
+463,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,3,17.0,21.0,18.0,3,No,481.0,180991,179188,228293
+464,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,3,17.0,21.0,18.0,3,No,481.0,180991,179188,228293
+465,High,Gasoline,small SUV,3.6,6.0,Auto-8,4WD,5,18.0,23.0,20.0,4,No,440.0,180991,179188,228293
+466,High,Gasoline,small SUV,3.6,6.0,Auto-8,4WD,5,18.0,23.0,20.0,4,No,440.0,180991,179188,228293
+467,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,3,17.0,21.0,18.0,3,No,480.0,180991,179188,228293
+468,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,3,17.0,21.0,18.0,3,No,480.0,180991,179188,228293
+469,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,5,17.0,25.0,20.0,4,No,446.0,180991,179188,228293
+470,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,5,17.0,25.0,20.0,4,No,446.0,180991,179188,228293
+471,High,Gasoline,small SUV,2.0,4.0,Auto-8,4WD,5,22.0,24.0,22.0,4,No,394.0,180991,179188,228293
+472,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,3,16.0,20.0,18.0,3,No,504.0,180991,179188,228293
+473,High,Gasoline,small SUV,3.6,6.0,Auto-5,4WD,3,16.0,20.0,18.0,3,No,504.0,180991,179188,228293
+474,High,Gasoline,small SUV,3.6,6.0,Auto-8,4WD,5,18.0,23.0,20.0,4,No,443.0,180991,179188,228293
+475,High,Gasoline,small SUV,3.6,6.0,Auto-8,4WD,5,18.0,23.0,20.0,4,No,443.0,180991,179188,228293
+476,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,3,16.0,21.0,18.0,3,No,502.0,180991,179188,228293
+477,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,3,16.0,21.0,18.0,3,No,502.0,180991,179188,228293
+478,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,5,17.0,23.0,19.0,3,No,459.0,180991,179188,228293
+479,High,Gasoline,small SUV,3.6,6.0,Man-6,4WD,5,17.0,23.0,19.0,3,No,459.0,180991,179188,228293
+480,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,125.0,100.0,112.0,10,Elite,0.0,13251,10458,14565
+481,Low,Electricity,midsize car,0,0,Auto-1,2WD,10,125.0,100.0,112.0,10,Elite,0.0,13251,10458,14565
+482,Low,Electricity,small car,0,0,Auto-1,2WD,10,124.0,94.0,108.0,10,Elite,0.0,609,529,1148
+483,Low,Electricity,small car,0,0,Auto-1,2WD,10,124.0,94.0,108.0,10,Elite,0.0,609,529,1148
+484,Low,Electricity,small car,0,0,Auto-1,2WD,10,112.0,91.0,102.0,10,Elite,0.0,609,529,1148
+485,Low,Electricity,small car,0,0,Auto-1,2WD,10,112.0,91.0,102.0,10,Elite,0.0,609,529,1148
+486,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,2WD,3,17.0,21.0,18.0,3,No,479.0,104456,119597,130025
+487,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,2WD,3,17.0,21.0,18.0,3,No,479.0,104456,119597,130025
+488,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,4WD,3,17.0,20.0,18.0,3,No,491.0,104456,119597,130025
+489,High,Gasoline,standard SUV,4.0,6.0,SemiAuto-5,4WD,3,17.0,20.0,18.0,3,No,491.0,104456,119597,130025
+490,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,2WD,5,20.0,23.0,21.0,4,No,422.0,178914,185615,228947
+491,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,2WD,5,20.0,23.0,21.0,4,No,422.0,178914,185615,228947
+492,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,4WD,5,19.0,22.0,20.0,4,No,441.0,178914,185615,228947
+493,High,Gasoline,pickup,2.7,4.0,SemiAuto-6,4WD,5,19.0,22.0,20.0,4,No,441.0,178914,185615,228947
+494,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,5,17.0,20.0,18.0,3,No,483.0,178914,185615,228947
+495,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,5,17.0,21.0,18.0,3,No,494.0,178914,185615,228947
+496,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,5,17.0,20.0,18.0,3,No,483.0,178914,185615,228947
+497,High,Gasoline,pickup,3.5,6.0,Man-6,4WD,5,17.0,21.0,18.0,3,No,494.0,178914,185615,228947
+498,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,2WD,5,19.0,24.0,21.0,4,No,431.0,178914,185615,228947
+499,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,2WD,5,19.0,24.0,21.0,4,No,431.0,178914,185615,228947
+500,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,4WD,5,18.0,22.0,20.0,4,No,452.0,178914,185615,228947
+501,High,Gasoline,pickup,3.5,6.0,SemiAuto-6,4WD,5,18.0,22.0,20.0,4,No,452.0,178914,185615,228947
+502,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,2WD,3,15.0,19.0,16.0,2,No,554.0,108257,109657,110614
+503,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,2WD,3,15.0,19.0,16.0,2,No,554.0,108257,109657,110614
+504,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,4WD,3,14.0,18.0,16.0,2,No,568.0,108257,109657,110614
+505,High,Gasoline,pickup,4.6,8.0,SemiAuto-6,4WD,3,14.0,18.0,16.0,2,No,568.0,108257,109657,110614
+506,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,2WD,5,13.0,18.0,15.0,2,No,592.0,108257,109657,110614
+507,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,2WD,5,13.0,18.0,15.0,2,No,592.0,108257,109657,110614
+508,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,4WD,5,13.0,17.0,14.0,1,No,615.0,108257,109657,110614
+509,High,Gasoline,pickup,5.7,8.0,SemiAuto-6,4WD,5,13.0,17.0,14.0,1,No,615.0,108257,109657,110614

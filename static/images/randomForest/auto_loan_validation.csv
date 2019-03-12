@@ -1,0 +1,5 @@
+﻿Index,loan_amnt,term,int_rate,installment,grade,home_ownership,verification_status,loan_status,pymnt_plan,purpose,addr_state,dti,cr_line_life,total_rec_late_fee,application_type
+23775,1500, 36 months,8.88,47.62,B,RENT,Source Verified,Fully Paid,n,other,TX,19.76,4935,0,INDIVIDUAL
+192,8400, 60 months,16.77,207.73,D,RENT,Not Verified,Current,n,major_purchase,NY,11.35,5666,0,INDIVIDUAL
+5489,15000, 60 months,19.03,389.36,E,MORTGAGE,Verified,Late (31-120 days),n,debt_consolidation,WA,18.31,8435,19.47,INDIVIDUAL
+88327,12000, 36 months,11.99,398.52,B,MORTGAGE,Source Verified,Default,n,credit_card,KS,23.23,7676,0,INDIVIDUAL
