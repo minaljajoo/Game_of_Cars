@@ -14,7 +14,7 @@ html{
 
 body {
 
-      background: url("../images/car_background_style.png");
+      .class { background-image: url(<%= asset_path './images/car_background_style.png' %>) }
       background-size: cover;
       background-repeat: no-repeat;
     }
